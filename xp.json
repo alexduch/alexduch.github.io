@@ -1,0 +1,116 @@
+{
+  "xp": [
+    {
+      "position": "Solution Architect",
+      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "dates": "08/2017 - aujourd'hui",
+      "location" : "La Haye, Pays-Bas",
+      "context": "Conception, développement et documentation d’une nouvelle application web. L’application est un portail web permettant l’accès à diverses sources de document, la principale fonctionnalité étant un système de notifications périodiques des nouvelles publications scientifiques correspondant à une recherche prédéfinie par l’utilisateur.",
+      "tasks": [
+        "Compréhension des besoins utilisateurs",
+        "Conception et rédaction de spécifications techniques",
+        "Participation au développement",
+        "Documentation"
+      ],
+      "environment" : [
+        "Windows 7", 
+        "UNIX", 
+        "Java", 
+        "Typescript", 
+        "HTML", 
+        "CSS", 
+        "SQL", 
+        "SQL Server", 
+        "Spring Boot", 
+        "Angular 4", 
+        "Webpack", 
+        "Maven", 
+        "Jenkins", 
+        "SonarQube"
+      ]
+    },
+    {
+      "position": "Lead developer",
+      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "dates": "09/2016 - 08/2017",
+      "location" : "La Haye, Pays-Bas",
+      "context": "Développement d’une nouvelle application web. Le but du projet est de remplacer une application Lotus Notes et d’automatiser certaines opérations de gestion de commandes et d’enrichissement de données bibliographiques.",
+      "tasks": [
+        "Participation à la conception",
+        "Implémentation"
+      ],
+      "environment" : [
+        "Windows", 
+        "UNIX",
+        "Java", 
+        "Typescript", 
+        "HTML", 
+        "CSS", 
+        "SQL",
+        "SQL Server", 
+        "Spring", 
+        "Hibernate", 
+        "Angular 2",
+        "Webpack", 
+        "Maven", 
+        "Jenkins", 
+        "JBoss", 
+        "SonarQube"
+      ]
+    },
+    {
+      "position": "Java & Javascript developer",
+      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "dates": "09/2015 - 09/2016",
+      "location" : "Paris, France",
+      "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
+      "tasks": [
+        "Correction de bugs ou adaptation de l’application aux cas non pris en charge, suite aux retours des utilisateurs",
+        "Conception et implémentation d’évolutions souhaitées par les utilisateurs",
+        "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
+        "Contexte de travail international, communications en anglais"
+      ],
+      "environment" : [
+        "Windows", 
+        "UNIX",
+        "Java", 
+        "Javascript",
+        "DB2",
+        "Spring", 
+        "Hibernate", 
+        "JQuery",
+        "Maven", 
+        "Jenkins", 
+        "JBoss", 
+        "SonarQube"
+      ]
+    },
+    {
+      "position": "Java & Javascript developer",
+      "company" : "Adaming (pour Infotel et l'Office Européen des Brevets)",
+      "dates": "02/2015 - 08/2015",
+      "location" : "Paris, France",
+      "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
+      "tasks": [
+        "Correction de bugs ou adaptation de l’application aux cas non pris en charge, suite aux retours des utilisateurs",
+        "Conception et implémentation d’évolutions souhaitées par les utilisateurs",
+        "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
+        "Contexte de travail international, communications en anglais"
+      ],
+      "environment" : [
+        "Windows", 
+        "UNIX",
+        "Java", 
+        "Javascript",
+        "DB2",
+        "Spring", 
+        "Hibernate", 
+        "JQuery",
+        "Maven", 
+        "Jenkins", 
+        "JBoss", 
+        "SonarQube"
+      ]
+    }
+  ]
+}

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <style type="text/css">
+      html {
+        font-size: 10pt;
+      }
+    
       body {
         display: flex;
         flex-direction: column;
@@ -16,6 +20,19 @@
       
       main {
         flex: 1;
+      }
+      
+      #contact {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      #contact > .row {
+        flex: 1;
+      }
+      
+      .card {
+        height: 100%;
       }
     </style>
   </head>
@@ -31,65 +48,154 @@
     </header>
 	
     <main class="container">
-      <section id="competences" class="mt-3">
-        <h2>Compétences</h2>
-        <span class="badge badge-pill badge-success">Java</span>
-        <span class="badge badge-pill badge-success">Spring</span>
-        <span class="badge badge-pill badge-success">Hibernate</span>
-        <span class="badge badge-pill badge-info">Maven</span>
-        <span class="badge badge-pill badge-info">Jenkins</span>
-        <span class="badge badge-pill badge-info">SonarQube</span>
-        <span class="badge badge-pill badge-success">Javascript</span>
-        <span class="badge badge-pill badge-success">JQuery</span>
-        <span class="badge badge-pill badge-success">Angular</span>
-        <span class="badge badge-pill badge-info">Webpack</span>
-      </section>
+      <div class="row mt-3">
+        <section id="competences" class="col-6">
+          <h2>Compétences</h2>
+          <h4>
+            <span class="badge badge-pill badge-warning">Java</span>
+            <span class="badge badge-pill badge-success">Spring</span>
+            <span class="badge badge-pill badge-success">Hibernate</span>
+            <span class="badge badge-pill badge-info">Maven</span>
+            <span class="badge badge-pill badge-info">Jenkins</span>
+            <span class="badge badge-pill badge-info">SonarQube</span>
+            <span class="badge badge-pill badge-warning">Javascript</span>
+            <span class="badge badge-pill badge-success">JQuery</span>
+            <span class="badge badge-pill badge-success">Angular</span>
+            <span class="badge badge-pill badge-info">Webpack</span>
+            <span class="badge badge-pill badge-warning">Typescript</span>
+            <span class="badge badge-pill badge-info">JBoss</span>
+          </h4>
+        </section>
+        <section id="contact" class="col-6">
+          <h2>Contact</h2>
+          <div class="row text-center align-items-center">
+            <div class="col-4">
+              <h3>
+                <i class="fa fa-address-book" aria-hidden="true"></i>
+              </h3>
+            </div>
+            <div class="col-4">
+              <h3>
+                <a href="mailto:duchenne.alexandre@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+              </h3>
+            </div>
+            <div class="col-4">
+              <h3>
+                <a href="tel:0033679795714"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              </h3>
+            </div>
+          </div>
+        </section>
+      </div>
       <section id="experience" class="mt-3">
         <h2>Expérience</h2>
-        <div class="row">
-          <div class="card">
-            <div class="card-header">Infotel - Software Developer</div>
-            <div class="card-body">Yes, I am a Software Developer</div>
-          </div>
+        <div id="xp" class="row">
+          <!-- to be filled from the json -->  
         </div>
       </section>
       <section id="formation" class="mt-3">
         <h2>Formation</h2>
-        <div class="row">
-          <div class="card">
-            <div class="card-header">Supméca - École d'ingénieurs</div>
-            <div class="card-body">
-              Diplôme d'ingénieur de l'Institut Supérieur de Mécanique de Paris, option Modélisation et Innovation en 
-              Conception Avancée
+        <div class="row p-3">
+          <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 p-1">
+            <div class="card">
+              <div class="card-header">12/2014 - 02/2015</div>
+              <div class="card-body">
+                <h4 class="card-title">Formation Java JEE</h4>
+                <h6 class="card-subtitle mb-2 text-muted">INTI formation, Paris, France</h6>
+                <p>Formation au développement Java.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 p-1">
+            <div class="card">
+              <div class="card-header">2011 - 2014</div>
+              <div class="card-body">
+                <h4 class="card-title">Supméca</h4>
+                <h6 class="card-subtitle mb-2 text-muted">École d'ingénieursen mécanique, Toulon, France</h6>
+                <p>Diplôme d'ingénieur de l'Institut Supérieur de Mécanique de Paris, option Modélisation et 
+                Innovation en Conception Avancée.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 p-1">
+            <div class="card">
+              <div class="card-header">2008 - 2011</div>
+              <div class="card-body">
+                <h4 class="card-title">CPGE MPSI/MP</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Lycée Henri Bergson, Angers, France</h6>
+                <p>Classe préparatoire aux grandes école, filière mathématiques et physique.</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="bg-dark">
+    <footer class="bg-dark mt-3">
       <div class="container">
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://github.com/alexduch">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
+              <h1>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </h2>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/alexduch">
+              <h1>
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </h2>
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			      crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" 
             integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" 
             crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" 
             integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" 
             crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      
+        $.get({
+          url: 'xp.json',
+          dataType: 'json',
+          success: function(data){
+            let xpDiv = $('#xp');
+            data.xp.forEach(function(xp) {
+              xpDiv.append(
+                `<div class="col-12 mb-3">
+                  <div class="card">
+                    <div class="card-header">${xp.dates}</div>
+                      <div class="card-body">
+                        <h4 class="card-title">${xp.position}</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">${xp.company}, ${xp.location}</h6>
+                        <p>${xp.context}</p>
+                        <ul>
+                          <li>${xp.tasks.join('</li><li>')}</li>
+                        </ul>
+                        <h6>
+                          <span class="badge badge-pill badge-secondary">
+                            ${xp.environment.join('</span> <span class="badge badge-pill badge-secondary">')}
+                          </span>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>`);
+            });
+          },
+          error: function(xhr, statusText, errorThrown){
+            alert(`An error occurred: ${statusText}`);
+          }
+        });
+        
+      });
+    </script>
   </body>
 </html>
