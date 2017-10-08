@@ -1,4 +1,23 @@
 {
+  "skills": { 
+    "Angular": "framework",
+    "CSS": "language",
+    "Hibernate": "framework",
+    "HTML": "language",
+    "Java": "language",
+    "Javascript": "language", 
+    "JBoss": "tool",
+    "Jenkins": "tool",
+    "JQuery": "framework",
+    "Maven": "tool", 
+    "SonarQube": "tool",
+    "Spring": "framework",
+    "Spring Boot": "framework",
+    "SQL": "language", 
+    "SQL Server": "tool",
+    "Typescript": "language",
+    "Webpack": "tool"
+  },
   "xp": [
     {
       "position": "Solution Architect",
@@ -12,20 +31,20 @@
         "Participation au développement",
         "Documentation"
       ],
-      "environment" : [
-        "Java", 
-        "Typescript", 
-        "HTML", 
-        "CSS", 
-        "SQL", 
-        "SQL Server", 
-        "Spring Boot", 
-        "Angular 4", 
-        "Webpack", 
-        "Maven", 
-        "Jenkins", 
-        "SonarQube"
-      ]
+      "environment" : {
+        "Java": "language", 
+        "Typescript": "language", 
+        "HTML": "language", 
+        "CSS": "language", 
+        "SQL": "language", 
+        "SQL Server": "tool", 
+        "Spring Boot": "framework", 
+        "Angular 4": "framework", 
+        "Webpack": "tool", 
+        "Maven": "tool", 
+        "Jenkins": "tool", 
+        "SonarQube": "tool"
+      }
     },
     {
       "position": "Lead developer",
@@ -37,22 +56,22 @@
         "Participation à la conception",
         "Implémentation"
       ],
-      "environment" : [
-        "Java", 
-        "Typescript", 
-        "HTML", 
-        "CSS", 
-        "SQL",
-        "SQL Server", 
-        "Spring", 
-        "Hibernate", 
-        "Angular 2",
-        "Webpack", 
-        "Maven", 
-        "Jenkins", 
-        "JBoss", 
-        "SonarQube"
-      ]
+      "environment" : {
+        "Java": "language", 
+        "Typescript": "language", 
+        "HTML": "language", 
+        "CSS": "language", 
+        "SQL": "language",
+        "SQL Server": "tool", 
+        "Spring": "framework", 
+        "Hibernate": "framework", 
+        "Angular 2": "framework",
+        "Webpack": "tool", 
+        "Maven": "tool", 
+        "Jenkins": "tool", 
+        "JBoss": "tool", 
+        "SonarQube": "tool"
+      }
     },
     {
       "position": "Java & Javascript developer",
@@ -66,18 +85,18 @@
         "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
         "Contexte de travail international, communications en anglais"
       ],
-      "environment" : [
-        "Java", 
-        "Javascript",
-        "DB2",
-        "Spring", 
-        "Hibernate", 
-        "JQuery",
-        "Maven", 
-        "Jenkins", 
-        "JBoss", 
-        "SonarQube"
-      ]
+      "environment" : {
+        "Java": "language", 
+        "Javascript": "language",
+        "DB2": "tool",
+        "Spring": "framework", 
+        "Hibernate": "framework", 
+        "JQuery": "framework",
+        "Maven": "tool", 
+        "Jenkins": "tool", 
+        "JBoss": "tool", 
+        "SonarQube": "tool"
+      }
     },
     {
       "position": "Java & Javascript developer",
@@ -91,18 +110,18 @@
         "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
         "Contexte de travail international, communications en anglais"
       ],
-      "environment" : [
-        "Java", 
-        "Javascript",
-        "DB2",
-        "Spring", 
-        "Hibernate", 
-        "JQuery",
-        "Maven", 
-        "Jenkins", 
-        "JBoss", 
-        "SonarQube"
-      ]
+      "environment" : {
+        "Java": "language", 
+        "Javascript": "language",
+        "DB2": "tool",
+        "Spring": "framework", 
+        "Hibernate": "framework",
+        "JQuery": "framework",
+        "Maven": "tool", 
+        "Jenkins": "tool", 
+        "JBoss": "tool", 
+        "SonarQube": "tool"
+      }
     }
   ]
 }
