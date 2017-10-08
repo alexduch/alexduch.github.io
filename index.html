@@ -42,12 +42,23 @@
         <div class="container">
           <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/045/282/172f496.jpg" 
                class="rounded-circle navbar-brand" height="50">
-          <span class="navbar-brand">Alexandre DUCHENNE</a>
+          <span class="navbar-brand">Alexandre DUCHENNE</span>
         </div>
       </nav>
     </header>
 	
     <main class="container">
+      <section id="contact-print" class="d-none d-print-block">
+        <div class="row">
+	  <div class="col-6">
+            <address>
+	      <strong>Alexandre Duchenne</strong>
+	      <br>
+	      <p>duchenne.alexandre@gmail.com</p>
+	    </address>
+	  </div>
+        </div>
+      </section>
       <div class="row mt-3">
         <section id="competences" class="col-md-6 col-sm-12 order-md-1 order-2"> 
           <h2>Compétences</h2>
@@ -69,14 +80,28 @@
         <section id="contact" class="col-md-6 col-sm-12 order-md-2 order-1">
           <h2>Contact</h2>
           <div class="row text-center align-items-center p-3">
-            <div class="col-6">
+            <div class="col-3">
               <h3>
-                <i class="fa fa-address-book" aria-hidden="true"></i>
+                <a href="duchenne.vcf"><i class="fa fa-vcard" aria-hidden="true"></i></a>
               </h3>
             </div>
-            <div class="col-6">
+            <div class="col-3">
               <h3>
                 <a href="mailto:duchenne.alexandre@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+              </h3>
+            </div>
+            <div class="col-3">
+              <h3>
+                <a target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </h3>
+            </div>
+            <div class="col-3">
+              <h3>
+                <a target="_blank" href="https://github.com/alexduch">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
               </h3>
             </div>
           </div>
@@ -84,8 +109,8 @@
       </div>
       <section id="experience" class="mt-3">
         <h2>Expérience</h2>
-        <div id="xp" class="row">
-          <!-- to be filled from the json -->  
+        <div id="xp" class="row p-3">
+          <!-- to be filled from the json -->
         </div>
       </section>
       <section id="formation" class="mt-3">
@@ -107,8 +132,8 @@
               <div class="card-body">
                 <h4 class="card-title">Supméca</h4>
                 <h6 class="card-subtitle mb-2 text-muted">École d'ingénieursen mécanique, Toulon, France</h6>
-                <p>Diplôme d'ingénieur de l'Institut Supérieur de Mécanique de Paris, option Modélisation et 
-                Innovation en Conception Avancée.</p>
+                <p>Diplôme d'ingénieur de l'Institut Supérieur de Mécanique de Paris, option Modélisation et
+                  Innovation en Conception Avancée.</p>
               </div>
             </div>
           </div>
@@ -125,38 +150,36 @@
         </div>
       </section>
     </main>
-    <footer class="bg-dark mt-3">
+    <!--footer class="bg-dark mt-3">
       <div class="container">
         <ul class="nav justify-content-end">
           <li class="nav-item">
             <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
-              <h1>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <h2>
               </h2>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" target="_blank" href="https://github.com/alexduch">
-              <h1>
-                <i class="fa fa-github" aria-hidden="true"></i>
+              <h2>
               </h2>
             </a>
           </li>
         </ul>
       </div>
-    </footer>
+    </footer-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-			      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-			      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" 
-            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" 
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" 
-            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
             crossorigin="anonymous"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-      
+
         $.get({
           url: 'xp.json',
           dataType: 'json',
@@ -164,7 +187,7 @@
             let xpDiv = $('#xp');
             data.xp.forEach(function(xp) {
               xpDiv.append(
-                `<div class="col-12 mb-3">
+                `<div class="col-12 p-1">
                   <div class="card">
                     <div class="card-header">${xp.dates}</div>
                       <div class="card-body">
