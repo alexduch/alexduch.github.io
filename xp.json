@@ -13,8 +13,6 @@
         "Documentation"
       ],
       "environment" : [
-        "Windows 7", 
-        "UNIX", 
         "Java", 
         "Typescript", 
         "HTML", 
@@ -40,8 +38,6 @@
         "Implémentation"
       ],
       "environment" : [
-        "Windows", 
-        "UNIX",
         "Java", 
         "Typescript", 
         "HTML", 
@@ -71,8 +67,6 @@
         "Contexte de travail international, communications en anglais"
       ],
       "environment" : [
-        "Windows", 
-        "UNIX",
         "Java", 
         "Javascript",
         "DB2",
@@ -98,8 +92,6 @@
         "Contexte de travail international, communications en anglais"
       ],
       "environment" : [
-        "Windows", 
-        "UNIX",
         "Java", 
         "Javascript",
         "DB2",
