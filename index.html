@@ -11,28 +11,26 @@
       html {
         font-size: 10pt;
       }
-    
-      body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-      }
-      
-      main {
-        flex: 1;
-      }
-      
-      #contact {
-        display: flex;
-        flex-direction: column;
-      }
-      
-      #contact .row {
-        flex: 1;
-      }
       
       .card {
         height: 100%;
+        page-break-after: auto;
+      }
+      
+      #contact > div {
+        flex-grow: 1;
+      }
+      
+      .d-print-flex {
+        display: none !important;
+      }
+      
+      @media print {
+        .d-print-flex {
+          display: flex !important;
+          display: -ms-flexbox;
+          -ms-flex-wrap: wrap;
+        }
       }
     </style>
   </head>
@@ -48,61 +46,60 @@
     </header>
 	
     <main class="container">
-      <section id="contact-print" class="d-none d-print-block">
-        <div class="row">
-	        <div class="col-12">
-            <address>
-              <h1><strong>Alexandre Duchenne</strong></h1>
-	            <span class="float-left">duchenne.alexandre@gmail.com</span>
-	          </address>
-	        </div>
-	        
+      <div class="row d-print-flex justify-content-between">
+        <div id="contact-print" class="col-auto mr-auto">
+          <h1>
+            <strong>Alexandre Duchenne</strong>
+          </h1>
+          <span>Nanterre, France</span>
+          <br>
+	        <span>duchenne.alexandre@gmail.com</span>
+	        <br>
+	        <span>+33 (0)6 79 79 57 14</span>
         </div>
-      </section>
-      <div class="row mt-3">
-        <section id="competences" class="col-md-6 col-sm-12 order-md-1 order-2"> 
+        <div id="qrcode" class="col-auto">
+          <img src="contact.png" class="img-fluid" style="height: 3cm">
+        </div>
+      </div>
+      <div class="row">
+        <section id="competences" class="col order-md-1 order-2 mt-3"> 
           <h2>Compétences</h2>
           <h4 id="skills" class="p-3">
             <!-- to be filled from the json -->
           </h4>
         </section>
-        <section id="contact" class="col-md-6 col-sm-12 order-md-2 order-1">
-          <div class="d-print-none">
-            <h2>Contact</h2>
-            <div class="row text-center align-items-center p-3">
-              <div class="col-3">
-                <h3>
-                  <a href="duchenne.vcf">
-                    <i class="fa fa-vcard" aria-hidden="true"></i>
-                  </a>
-                </h3>
-              </div>
-              <div class="col-3">
-                <h3>
-                  <a href="mailto:duchenne.alexandre@gmail.com">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                  </a>
-                </h3>
-              </div>
-              <div class="col-3">
-                <h3>
-                  <a target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                  </a>
-                </h3>
-              </div>
-              <div class="col-3">
-                <h3>
-                  <a target="_blank" href="https://github.com/alexduch">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                </h3>
-              </div>
+        <section id="contact" class="col-lg-4 col-md-6 col-sm-12 order-md-2 order-1 d-flex flex-column mt-3 d-print-none">
+          <h2>Contact</h2>
+          <div class="row d-flex justify-content-around align-items-center text-center p-3">
+            <div class="col">
+              <h2>
+                <a href="duchenne.vcf">
+                  <i class="fa fa-vcard" aria-hidden="true"></i>
+                </a>
+              </h2>
+            </div>
+            <div class="col">
+              <h2>
+                <a href="mailto:duchenne.alexandre@gmail.com">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+              </h2>
+            </div>
+            <div class="col">
+              <h2>
+                <a target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </h2>
+            </div>
+            <div class="col">
+              <h2>
+                <a target="_blank" href="https://github.com/alexduch">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+              </h2>
             </div>
           </div>
-          <div class="d-none d-print-block align-items-right">
-	          <img src="contact.png" class="img-fluid" height="30%"s>
-	        </div>
         </section>
       </div>
       <section id="experience" class="mt-3">
@@ -148,33 +145,9 @@
         </div>
       </section>
     </main>
-    <!--footer class="bg-dark mt-3">
-      <div class="container">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
-              <h2>
-              </h2>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://github.com/alexduch">
-              <h2>
-              </h2>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer-->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-            crossorigin="anonymous"></script-->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript">
       const skillStyle = new Map();
       skillStyle.set('language', 'warning');
@@ -205,8 +178,8 @@
                         </ul>
                         <h6>
                           ${Object.keys(env).map(
-                              key => `<span class="badge badge-pill badge-${skillStyle.get(env[key])}">${key}</span>`
-                            ).join(' ')}
+                              key => `<span class="badge badge-pill badge-${skillStyle.get(env[key])} m-1">${key}</span>`
+                            ).join('')}
                         </h6>
                       </div>
                     </div>
