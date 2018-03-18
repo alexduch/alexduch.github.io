@@ -25,8 +25,6 @@
           font-size: 10pt;
         }
       }
-
-
   </style>
 </head>
 <body>
@@ -60,7 +58,7 @@
     <section id="competences" class="col order-md-1 order-2 mt-3">
       <h2>Compétences</h2>
       <h4 id="skills" class="p-3">
-        <!-- to be filled from the json -->
+        <skill v-for="(category, name) in skills" :name="name" :category="category" :skill-style="skillStyle"></skill>
       </h4>
     </section>
     <section id="contact" class="col-lg-4 col-md-6 col-sm-12 order-md-2 order-1 d-flex flex-column mt-3 d-print-none">
@@ -100,7 +98,7 @@
   <section id="experience" class="mt-3">
     <h2>Expérience</h2>
     <div id="xp" class="pt-3">
-      <!-- to be filled from the json -->
+      <xp :xp="xpComponentData" :skill-style="skillStyle"></xp>
     </div>
   </section>
   <section id="formation" class="mt-3">
@@ -156,54 +154,76 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://vuejs.org/js/vue.js"></script>
+<!--script src="https://vuejs.org/js/vue.min.js"></script-->
 <script type="text/javascript">
-      const skillStyle = new Map();
-      skillStyle.set('language', 'warning');
-      skillStyle.set('framework', 'success');
-      skillStyle.set('tool', 'info');
-    
-      $(document).ready(function(){
+  const skillStyle = new Map();
+  skillStyle.set('language', 'warning');
+  skillStyle.set('framework', 'success');
+  skillStyle.set('tool', 'info');
 
-        $.get({
-          url: 'xp.json',
-          dataType: 'json',
-          success: data => {
-            Object.keys(data.skills).forEach( key => {
-              $('#skills').append(`<span class="badge badge-pill badge-${skillStyle.get(data.skills[key])}">${key}</span> `);
-            });
-            data.xp.forEach(xp => {
-              let env = xp.environment;
-              $('#xp').append(
-                `<div class="row p-1">
-                  <div class="col-12">
-                    <div class="card">
-                      <div class="card-header">${xp.dates}</div>
-                      <div class="card-body">
-                        <h4 class="card-title">${xp.position}</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">${xp.company}, ${xp.location}</h6>
-                        <p>${xp.context}</p>
-                        <ul>
-                          <li>${xp.tasks.join('</li><li>')}</li>
-                        </ul>
-                        <h6>
-                          ${Object.keys(env).map(
-                              key => `<span class="badge badge-pill badge-${skillStyle.get(env[key])} m-1">${key}</span>`
-                            ).join('')}
-                        </h6>
-                      </div>
-                    </div>
-                  </div>
-                </div>`);
-            });
-          },
-          error: (xhr, statusText, errorThrown) => {
-            alert(`An error occurred: ${statusText}`);
+  Vue.component('skill', {
+    props: ['name', 'category', 'skillStyle'],
+    template: `<span :class="'m-1 badge badge-pill badge-' + skillStyle.get(category)">{{ name }}</span>`
+  });
+
+  Vue.component('xp', {
+    props: ['xp', 'skillStyle'],
+    template:
+       `<div>
+         <div v-for="x in xp" class="row p-1">
+           <div class="col-12">
+             <div class="card">
+               <div class="card-header">{{ x.dates }}</div>
+               <div class="card-body">
+                 <h4 class="card-title">{{ x.position }}</h4>
+                 <h6 class="card-subtitle mb-2 text-muted">{{ x.company }}, {{ x.location }}</h6>
+                 <p>{{ x.context }}</p>
+                 <ul>
+                   <li v-for="task in x.tasks">{{ task }}</li>
+                 </ul>
+                 <skill v-for="(category, name) in x.environment" :name="name" :category="category" :skill-style="skillStyle"></skill>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>`,
+    data: function(){ return {}; }
+  });
+
+  let xpComponentData;
+
+  $(document).ready(function(){
+
+    $.get({
+      url: 'xp.json',
+      dataType: 'json',
+      success: data => {
+        new Vue({
+          el: '#skills',
+          data: function(){
+              return {
+                  skills: data.skills,
+                  skillStyle: skillStyle
+              };
           }
         });
-        
-      });
+        new Vue({
+          el: '#xp',
+          data: function(){
+              return {
+                  xpComponentData: data.xp,
+                  skillStyle: skillStyle
+              };
+          }
+        });
+      },
+      error: (xhr, statusText, errorThrown) => {
+        alert(`An error occurred: ${statusText}`);
+      }
+    });
 
-
+  });
 </script>
 </body>
 </html>
