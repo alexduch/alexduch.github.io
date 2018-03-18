@@ -1,0 +1,72 @@
+const skillStyle = new Map();
+skillStyle.set('language', 'warning');
+skillStyle.set('framework', 'success');
+skillStyle.set('tool', 'info');
+
+Vue.component('skill', {
+  props: ['name', 'category', 'skillStyle'],
+  template: `<span :class="'m-1 badge badge-pill badge-' + skillStyle.get(category)">{{ name }}</span>`
+});
+
+Vue.component('xp', {
+  props: ['xp', 'skillStyle'],
+  template:
+     `<div>
+       <div v-for="x in xp" class="row p-1">
+         <div class="col-12">
+           <div class="card">
+             <div class="card-header">{{ x.dates }}</div>
+             <div class="card-body">
+               <h4 class="card-title">{{ x.position }}</h4>
+               <h6 class="card-subtitle mb-2 text-muted">{{ x.company }}, {{ x.location }}</h6>
+               <p>{{ x.context }}</p>
+               <ul>
+                 <li v-for="task in x.tasks">{{ task }}</li>
+               </ul>
+               <skill v-for="(category, name) in x.env" :name="name" :category="category" :skill-style="skillStyle"></skill>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>`,
+  data: function(){ return {}; }
+});
+
+let rootComponent;
+
+const dataRequestConfig = {
+  method: 'GET',
+  mode: 'same-origin',
+  credentials: 'same-origin'
+};
+
+function fetchData(locale) {
+  fetch(new Request(`data_${locale}.json`), dataRequestConfig)
+      .then(response => {
+        if (!response.ok) {
+          alert(`An error occurred: ${statusText}`);
+          return response;
+        } else {
+          return response.json();
+        }
+      })
+      .then(data => {
+        if (rootComponent) {
+          rootComponent.skills = data.skills;
+          rootComponent.xpComponentData = data.xp;
+        } else {
+          rootComponent = new Vue({
+            el: '#main',
+            data: function(){
+                return {
+                    skills: data.skills,
+                    xpComponentData: data.xp,
+                    skillStyle: skillStyle
+                };
+            }
+          });
+        }
+      });
+};
+
+fetchData(document.getElementById('languageSelector').value);
