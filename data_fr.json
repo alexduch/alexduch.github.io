@@ -1,0 +1,159 @@
+{
+  "contact": {
+    "name": "Alexandre Duchenne",
+    "area": "Nanterre, France",
+    "e-mail": "duchenne.alexandre@gmail.com",
+    "phone": "+33 (0)6 79 79 57 14"
+  },
+  "skills": { 
+    "Angular": "framework",
+    "CSS": "language",
+    "Hibernate": "framework",
+    "HTML": "language",
+    "Java": "language",
+    "Javascript": "language", 
+    "JBoss": "tool",
+    "Jenkins": "tool",
+    "JQuery": "framework",
+    "Maven": "tool", 
+    "SonarQube": "tool",
+    "Spring": "framework",
+    "Spring Boot": "framework",
+    "SQL": "language", 
+    "SQL Server": "tool",
+    "Typescript": "language",
+    "Webpack": "tool"
+  },
+  "xp": [
+    {
+      "position": "Solution Architect",
+      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "dates": "08/2017 - aujourd'hui",
+      "location" : "La Haye, Pays-Bas",
+      "context": "Conception, développement et documentation d’une nouvelle application web. L’application est un portail web permettant l’accès à diverses sources de document, la principale fonctionnalité étant un système de notifications périodiques des nouvelles publications scientifiques correspondant à une recherche prédéfinie par l’utilisateur.",
+      "tasks": [
+        "Compréhension des besoins utilisateurs",
+        "Conception et rédaction de spécifications techniques",
+        "Participation au développement",
+        "Documentation"
+      ],
+      "env" : {
+        "Java": "language", 
+        "Typescript": "language", 
+        "HTML": "language", 
+        "CSS": "language", 
+        "SQL": "language", 
+        "SQL Server": "tool", 
+        "Spring Boot": "framework", 
+        "Angular 4": "framework", 
+        "Webpack": "tool", 
+        "Maven": "tool", 
+        "Jenkins": "tool", 
+        "SonarQube": "tool"
+      }
+    },
+    {
+      "position": "Lead developer",
+      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "dates": "09/2016 - 08/2017",
+      "location" : "La Haye, Pays-Bas",
+      "context": "Développement d’une nouvelle application web. Le but du projet est de remplacer une application Lotus Notes et d’automatiser certaines opérations de gestion de commandes et d’enrichissement de données bibliographiques.",
+      "tasks": [
+        "Participation à la conception",
+        "Implémentation"
+      ],
+      "env" : {
+        "Java": "language", 
+        "Typescript": "language", 
+        "HTML": "language", 
+        "CSS": "language", 
+        "SQL": "language",
+        "SQL Server": "tool", 
+        "Spring": "framework", 
+        "Hibernate": "framework", 
+        "Angular 2": "framework",
+        "Webpack": "tool", 
+        "Maven": "tool", 
+        "Jenkins": "tool", 
+        "JBoss": "tool", 
+        "SonarQube": "tool"
+      }
+    },
+    {
+      "position": "Java & Javascript developer",
+      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "dates": "09/2015 - 09/2016",
+      "location" : "Paris, France",
+      "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
+      "tasks": [
+        "Correction de bugs ou adaptation de l’application aux cas non pris en charge, suite aux retours des utilisateurs",
+        "Conception et implémentation d’évolutions souhaitées par les utilisateurs",
+        "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
+        "Contexte de travail international, communications en anglais"
+      ],
+      "env" : {
+        "Java": "language", 
+        "Javascript": "language",
+        "DB2": "tool",
+        "Spring": "framework", 
+        "Hibernate": "framework", 
+        "JQuery": "framework",
+        "Maven": "tool", 
+        "Jenkins": "tool", 
+        "JBoss": "tool", 
+        "SonarQube": "tool"
+      }
+    },
+    {
+      "position": "Java & Javascript developer",
+      "company" : "Adaming (pour Infotel et l'Office Européen des Brevets)",
+      "dates": "02/2015 - 08/2015",
+      "location" : "Paris, France",
+      "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
+      "tasks": [
+        "Correction de bugs ou adaptation de l’application aux cas non pris en charge, suite aux retours des utilisateurs",
+        "Conception et implémentation d’évolutions souhaitées par les utilisateurs",
+        "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
+        "Contexte de travail international, communications en anglais"
+      ],
+      "env" : {
+        "Java": "language", 
+        "Javascript": "language",
+        "DB2": "tool",
+        "Spring": "framework", 
+        "Hibernate": "framework",
+        "JQuery": "framework",
+        "Maven": "tool", 
+        "Jenkins": "tool", 
+        "JBoss": "tool", 
+        "SonarQube": "tool"
+      }
+    }
+  ],
+  "education": [
+    {
+      "dates": "12/2014 - 02/2015",
+      "school": "INTI formation, Paris, France",
+      "training": "Formation Java JEE",
+      "description": "Formation au développement Java."
+    },
+    {
+      "dates": "2011 - 2014",
+      "school": "École d'ingénieurs en mécanique, Toulon, France",
+      "training": "Supméca",
+      "description": "Diplôme d'ingénieur de l'Institut Supérieur de Mécanique de Paris, option Modélisation et Innovation en Conception Avancée."
+    },
+    {
+      "dates": "2008 - 2011",
+      "school": "Lycée Henri Bergson, Angers, France",
+      "training": "CPGE MPSI/MP",
+      "description": "Classe préparatoire aux grandes école, filière mathématiques et physique."
+    }
+  ],
+  "sections": {
+    "skills": "Compétences",
+    "contact": "Contact",
+    "xp": "Expérience",
+    "education": "Formation"
+  }
+}

@@ -1,4 +1,10 @@
 {
+  "contact": {
+    "name": "Alexandre Duchenne",
+    "area": "Nanterre, France",
+    "e-mail": "duchenne.alexandre@gmail.com",
+    "phone": "+33 (0)6 79 79 57 14"
+  },
   "skills": { 
     "Angular": "framework",
     "CSS": "language",
@@ -31,7 +37,7 @@
         "Participation au développement",
         "Documentation"
       ],
-      "environment" : {
+      "env" : {
         "Java": "language", 
         "Typescript": "language", 
         "HTML": "language", 
@@ -56,7 +62,7 @@
         "Participation à la conception",
         "Implémentation"
       ],
-      "environment" : {
+      "env" : {
         "Java": "language", 
         "Typescript": "language", 
         "HTML": "language", 
@@ -85,7 +91,7 @@
         "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
         "Contexte de travail international, communications en anglais"
       ],
-      "environment" : {
+      "env" : {
         "Java": "language", 
         "Javascript": "language",
         "DB2": "tool",
@@ -110,7 +116,7 @@
         "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
         "Contexte de travail international, communications en anglais"
       ],
-      "environment" : {
+      "env" : {
         "Java": "language", 
         "Javascript": "language",
         "DB2": "tool",
@@ -123,5 +129,31 @@
         "SonarQube": "tool"
       }
     }
-  ]
+  ],
+  "education": [
+    {
+      "dates": "12/2014 - 02/2015",
+      "school": "INTI formation, Paris, France",
+      "training": "Formation Java JEE",
+      "description": "Formation au développement Java."
+    },
+    {
+      "dates": "2011 - 2014",
+      "school": "École d'ingénieurs en mécanique, Toulon, France",
+      "training": "Supméca",
+      "description": "Diplôme d'ingénieur de l'Institut Supérieur de Mécanique de Paris, option Modélisation et Innovation en Conception Avancée."
+    },
+    {
+      "dates": "2008 - 2011",
+      "school": "Lycée Henri Bergson, Angers, France",
+      "training": "CPGE MPSI/MP",
+      "description": "Classe préparatoire aux grandes école, filière mathématiques et physique."
+    }
+  ],
+  "sections": {
+    "skills": "Compétences",
+    "contact": "Contact",
+    "xp": "Expérience",
+    "education": "Formation"
+  }
 }

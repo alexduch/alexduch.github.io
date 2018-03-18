@@ -182,7 +182,7 @@
                  <ul>
                    <li v-for="task in x.tasks">{{ task }}</li>
                  </ul>
-                 <skill v-for="(category, name) in x.environment" :name="name" :category="category" :skill-style="skillStyle"></skill>
+                 <skill v-for="(category, name) in x.env" :name="name" :category="category" :skill-style="skillStyle"></skill>
                </div>
              </div>
            </div>
@@ -196,7 +196,7 @@
   $(document).ready(function(){
 
     $.get({
-      url: 'xp.json',
+      url: 'data_fr.json',
       dataType: 'json',
       success: data => {
         new Vue({
