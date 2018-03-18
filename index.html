@@ -1,154 +1,162 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Alexandre DUCHENNE</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
-          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <style type="text/css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Alexandre DUCHENNE</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style type="text/css">
       html {
         font-size: 10pt;
       }
       
       .card {
         height: 100%;
-        page-break-after: auto;
       }
       
       #contact > div {
         flex-grow: 1;
       }
       
-      .d-print-flex {
-        display: none !important;
-      }
-      
       @media print {
-        .d-print-flex {
-          display: flex !important;
-          display: -ms-flexbox;
-          -ms-flex-wrap: wrap;
+        #skills {
+          font-size: 10pt;
         }
       }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-print-none">
-        <div class="container">
-          <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/045/282/172f496.jpg" 
-               class="rounded-circle navbar-brand" height="50">
-          <span class="navbar-brand">Alexandre DUCHENNE</span>
+
+
+  </style>
+</head>
+<body>
+<header class="d-print-none">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/045/282/172f496.jpg"
+           class="rounded-circle navbar-brand" height="50">
+      <span class="navbar-brand">Alexandre DUCHENNE</span>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="row d-none d-print-flex justify-content-between">
+    <div id="contact-print" class="col-auto mr-auto">
+      <h1>
+        <strong>Alexandre Duchenne</strong>
+      </h1>
+      <span>Nanterre, France</span>
+      <br/>
+      <span>duchenne.alexandre@gmail.com</span>
+      <br>
+      <span>+33 (0)6 79 79 57 14</span>
+    </div>
+    <div id="qrcode" class="col-auto">
+      <img src="contact.png" class="img-fluid" style="height: 3cm">
+    </div>
+  </div>
+  <div class="row">
+    <section id="competences" class="col order-md-1 order-2 mt-3">
+      <h2>Compétences</h2>
+      <h4 id="skills" class="p-3">
+        <!-- to be filled from the json -->
+      </h4>
+    </section>
+    <section id="contact" class="col-lg-4 col-md-6 col-sm-12 order-md-2 order-1 d-flex flex-column mt-3 d-print-none">
+      <h2>Contact</h2>
+      <div class="row d-flex justify-content-around align-items-center text-center p-3">
+        <div class="col">
+          <h2>
+            <a href="duchenne.vcf">
+              <i class="fa fa-vcard" aria-hidden="true"></i>
+            </a>
+          </h2>
         </div>
-      </nav>
-    </header>
-	
-    <main class="container">
-      <div class="row d-print-flex justify-content-between">
-        <div id="contact-print" class="col-auto mr-auto">
-          <h1>
-            <strong>Alexandre Duchenne</strong>
-          </h1>
-          <span>Nanterre, France</span>
-          <br>
-	        <span>duchenne.alexandre@gmail.com</span>
-	        <br>
-	        <span>+33 (0)6 79 79 57 14</span>
+        <div class="col">
+          <h2>
+            <a href="mailto:duchenne.alexandre@gmail.com">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+          </h2>
         </div>
-        <div id="qrcode" class="col-auto">
-          <img src="contact.png" class="img-fluid" style="height: 3cm">
+        <div class="col">
+          <h2>
+            <a target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </h2>
+        </div>
+        <div class="col">
+          <h2>
+            <a target="_blank" href="https://github.com/alexduch">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </h2>
         </div>
       </div>
-      <div class="row">
-        <section id="competences" class="col order-md-1 order-2 mt-3"> 
-          <h2>Compétences</h2>
-          <h4 id="skills" class="p-3">
-            <!-- to be filled from the json -->
-          </h4>
-        </section>
-        <section id="contact" class="col-lg-4 col-md-6 col-sm-12 order-md-2 order-1 d-flex flex-column mt-3 d-print-none">
-          <h2>Contact</h2>
-          <div class="row d-flex justify-content-around align-items-center text-center p-3">
-            <div class="col">
-              <h2>
-                <a href="duchenne.vcf">
-                  <i class="fa fa-vcard" aria-hidden="true"></i>
-                </a>
-              </h2>
-            </div>
-            <div class="col">
-              <h2>
-                <a href="mailto:duchenne.alexandre@gmail.com">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                </a>
-              </h2>
-            </div>
-            <div class="col">
-              <h2>
-                <a target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-              </h2>
-            </div>
-            <div class="col">
-              <h2>
-                <a target="_blank" href="https://github.com/alexduch">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-              </h2>
-            </div>
+    </section>
+  </div>
+  <section id="experience" class="mt-3">
+    <h2>Expérience</h2>
+    <div id="xp" class="pt-3">
+      <!-- to be filled from the json -->
+    </div>
+  </section>
+  <section id="formation" class="mt-3">
+    <h2>Formation</h2>
+    <div class="row p-3">
+      <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 p-1">
+        <div class="card">
+          <div class="card-header">12/2014 - 02/2015</div>
+          <div class="card-body">
+            <h4 class="card-title">Formation Java JEE</h4>
+            <h6 class="card-subtitle mb-2 text-muted">INTI formation, Paris, France</h6>
+            <p>Formation au développement Java.</p>
           </div>
-        </section>
+        </div>
       </div>
-      <section id="experience" class="mt-3">
-        <h2>Expérience</h2>
-        <div id="xp" class="row p-3">
-          <!-- to be filled from the json -->
-        </div>
-      </section>
-      <section id="formation" class="mt-3">
-        <h2>Formation</h2>
-        <div class="row p-3">
-          <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 p-1">
-            <div class="card">
-              <div class="card-header">12/2014 - 02/2015</div>
-              <div class="card-body">
-                <h4 class="card-title">Formation Java JEE</h4>
-                <h6 class="card-subtitle mb-2 text-muted">INTI formation, Paris, France</h6>
-                <p>Formation au développement Java.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 p-1">
-            <div class="card">
-              <div class="card-header">2011 - 2014</div>
-              <div class="card-body">
-                <h4 class="card-title">Supméca</h4>
-                <h6 class="card-subtitle mb-2 text-muted">École d'ingénieursen mécanique, Toulon, France</h6>
-                <p>Diplôme d'ingénieur de l'Institut Supérieur de Mécanique de Paris, option Modélisation et
-                  Innovation en Conception Avancée.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 p-1">
-            <div class="card">
-              <div class="card-header">2008 - 2011</div>
-              <div class="card-body">
-                <h4 class="card-title">CPGE MPSI/MP</h4>
-                <h6 class="card-subtitle mb-2 text-muted">Lycée Henri Bergson, Angers, France</h6>
-                <p>Classe préparatoire aux grandes école, filière mathématiques et physique.</p>
-              </div>
-            </div>
+      <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 p-1">
+        <div class="card">
+          <div class="card-header">2011 - 2014</div>
+          <div class="card-body">
+            <h4 class="card-title">Supméca</h4>
+            <h6 class="card-subtitle mb-2 text-muted">École d'ingénieursen mécanique, Toulon, France</h6>
+            <p>Diplôme d'ingénieur de l'Institut Supérieur de Mécanique de Paris, option Modélisation et
+              Innovation en Conception Avancée.</p>
           </div>
         </div>
-      </section>
-    </main>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" 
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 p-1">
+        <div class="card">
+          <div class="card-header">2008 - 2011</div>
+          <div class="card-body">
+            <h4 class="card-title">CPGE MPSI/MP</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Lycée Henri Bergson, Angers, France</h6>
+            <p>Classe préparatoire aux grandes école, filière mathématiques et physique.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="d-print-none">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container d-flex justify-content-end">
+        <form class="form-inline">
+          <select class="custom-select">
+            <option value="fr" selected>FR</option>
+            <option value="en">EN</option>
+          </select>
+        </form>
+    </div>
+  </nav>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type="text/javascript">
       const skillStyle = new Map();
       skillStyle.set('language', 'warning');
       skillStyle.set('framework', 'success');
@@ -166,9 +174,10 @@
             data.xp.forEach(xp => {
               let env = xp.environment;
               $('#xp').append(
-                `<div class="col-12 p-1">
-                  <div class="card">
-                    <div class="card-header">${xp.dates}</div>
+                `<div class="row p-1">
+                  <div class="col-12">
+                    <div class="card">
+                      <div class="card-header">${xp.dates}</div>
                       <div class="card-body">
                         <h4 class="card-title">${xp.position}</h4>
                         <h6 class="card-subtitle mb-2 text-muted">${xp.company}, ${xp.location}</h6>
@@ -193,6 +202,8 @@
         });
         
       });
-    </script>
-  </body>
+
+
+</script>
+</body>
 </html>
