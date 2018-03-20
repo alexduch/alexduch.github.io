@@ -52,15 +52,13 @@ function fetchData(locale) {
       })
       .then(data => {
         if (rootComponent) {
-          rootComponent.skills = data.skills;
-          rootComponent.xpComponentData = data.xp;
+          rootComponent.data = data;
         } else {
           rootComponent = new Vue({
             el: '#main',
             data: function(){
                 return {
-                    skills: data.skills,
-                    xpComponentData: data.xp,
+                    data: data,
                     skillStyle: skillStyle
                 };
             }
