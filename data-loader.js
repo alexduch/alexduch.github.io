@@ -28,8 +28,21 @@ Vue.component('xp', {
            </div>
          </div>
        </div>
-     </div>`,
-  data: function(){ return {}; }
+     </div>`
+});
+
+Vue.component('training', {
+  props: ['dates', 'school', 'training', 'description'],
+  template: `<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 p-1">
+              <div class="card">
+                <div class="card-header">{{ dates }}</div>
+                <div class="card-body">
+                  <h4 class="card-title">{{ training }}</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">{{ school }}</h6>
+                  <p>{{ description }}</p>
+                </div>
+              </div>
+            </div>`
 });
 
 let rootComponent;
