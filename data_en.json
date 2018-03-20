@@ -28,14 +28,14 @@
     {
       "position": "Solution Architect",
       "company" : "Infotel (for the European Patent Office)",
-      "dates": "08/2017 - aujourd'hui",
+      "dates": "08/2017 - today",
       "location" : "The Hague, Netherlands",
-      "context": "Conception, développement et documentation d’une nouvelle application web. L’application est un portail web permettant l’accès à diverses sources de document, la principale fonctionnalité étant un système de notifications périodiques des nouvelles publications scientifiques correspondant à une recherche prédéfinie par l’utilisateur.",
+      "context": "Design, development and documentation of a new Web application. This application is a portal giving access to several sources of Non Patent Literature. The main feature is a notification system for newly published documents matching a search registered by the user.",
       "tasks": [
-        "Compréhension des besoins utilisateurs",
-        "Conception et rédaction de spécifications techniques",
-        "Participation au développement",
-        "Documentation"
+        "Understanding user needs",
+        "Designing and writing technical specifications",
+        "Taking part in the development",
+        "Documenting"
       ],
       "env" : {
         "Java": "language", 
@@ -54,13 +54,13 @@
     },
     {
       "position": "Lead developer",
-      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "company" : "Infotel (for the European Patent Office)",
       "dates": "09/2016 - 08/2017",
-      "location" : "La Haye, Pays-Bas",
-      "context": "Développement d’une nouvelle application web. Le but du projet est de remplacer une application Lotus Notes et d’automatiser certaines opérations de gestion de commandes et d’enrichissement de données bibliographiques.",
+      "location" : "The Hague, Netherlands",
+      "context": "Development of a new Web application. The aim of the project is to replace a Lotus Notes application and to automate some operations for orders handling and bibliographic data enrichment.",
       "tasks": [
-        "Participation à la conception",
-        "Implémentation"
+        "Taking part to the design",
+        "Implementation"
       ],
       "env" : {
         "Java": "language", 
@@ -81,15 +81,14 @@
     },
     {
       "position": "Java & Javascript developer",
-      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "company" : "Infotel (for the European Patent Office)",
       "dates": "09/2015 - 09/2016",
       "location" : "Paris, France",
-      "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
+      "context": "Third-Party Application Maintenance of CiteNPL (Firefox extension and web applications).",
       "tasks": [
-        "Correction de bugs ou adaptation de l’application aux cas non pris en charge, suite aux retours des utilisateurs",
-        "Conception et implémentation d’évolutions souhaitées par les utilisateurs",
-        "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
-        "Contexte de travail international, communications en anglais"
+        "Fixing bugs following feedback from the users",
+        "Design and implementation of new features required by the users",
+        "Support to testing and deployment teams"
       ],
       "env" : {
         "Java": "language", 
@@ -106,15 +105,14 @@
     },
     {
       "position": "Java & Javascript developer",
-      "company" : "Adaming (pour Infotel et l'Office Européen des Brevets)",
+      "company" : "Adaming (for Infotel and the European Patent Office)",
       "dates": "02/2015 - 08/2015",
       "location" : "Paris, France",
-      "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
+      "context": "Third-Party Application Maintenance of CiteNPL (Firefox extension and web applications).",
       "tasks": [
-        "Correction de bugs ou adaptation de l’application aux cas non pris en charge, suite aux retours des utilisateurs",
-        "Conception et implémentation d’évolutions souhaitées par les utilisateurs",
-        "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
-        "Contexte de travail international, communications en anglais"
+        "Fixing bugs following feedback from the users",
+        "Design and implementation of new features required by the users",
+        "Support to testing and deployment teams"
       ],
       "env" : {
         "Java": "language", 
@@ -134,20 +132,20 @@
     {
       "dates": "12/2014 - 02/2015",
       "school": "INTI formation, Paris, France",
-      "training": "Formation Java JEE",
-      "description": "Formation au développement Java."
+      "training": "Java JEE training",
+      "description": "Training for Java development."
     },
     {
       "dates": "2011 - 2014",
-      "school": "École d'ingénieurs en mécanique, Toulon, France",
-      "training": "Supméca",
-      "description": "Diplôme d'ingénieur de l'Institut Supérieur de Mécanique de Paris, option Modélisation et Innovation en Conception Avancée."
+      "school": "Supméca, Toulon, France",
+      "training": "Mechanical engineering",
+      "description": "Mechanical engineering degree, with a major in Modeling and Innovation for Advanced Design."
     },
     {
       "dates": "2008 - 2011",
       "school": "Lycée Henri Bergson, Angers, France",
       "training": "CPGE MPSI/MP",
-      "description": "Classe préparatoire aux grandes école, filière mathématiques et physique."
+      "description": "Classe préparatoire aux grandes école, mathematics and physics."
     }
   ],
   "sections": {
