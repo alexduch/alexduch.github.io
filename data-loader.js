@@ -33,7 +33,7 @@ Vue.component('xp', {
 
 Vue.component('training', {
   props: ['dates', 'school', 'training', 'description'],
-  template: `<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 p-1">
+  template: `<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-1">
               <div class="card">
                 <div class="card-header">{{ dates }}</div>
                 <div class="card-body">
