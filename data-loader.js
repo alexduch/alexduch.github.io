@@ -11,17 +11,19 @@ Vue.component('skill', {
 Vue.component('xp', {
   props: ['xp', 'skillStyle'],
   template:
-      `<div class="col-12 p-1">
-        <div class="card">
-          <div class="card-header">{{ xp.dates }}</div>
-          <div class="card-body">
-            <h4 class="card-title">{{ xp.position }}</h4>
-            <h6 class="card-subtitle mb-2 text-muted">{{ xp.company }}, {{ xp.location }}</h6>
-            <p>{{ xp.context }}</p>
-            <ul>
-              <li v-for="task in xp.tasks">{{ task }}</li>
-            </ul>
-            <skill v-for="(category, name) in xp.env" :name="name" :category="category" :skill-style="skillStyle"></skill>
+      `<div class="row">
+        <div class="col p-1">
+          <div class="card">
+            <div class="card-header">{{ xp.dates }}</div>
+            <div class="card-body">
+              <h4 class="card-title">{{ xp.position }}</h4>
+              <h6 class="card-subtitle mb-2 text-muted">{{ xp.company }}, {{ xp.location }}</h6>
+              <p>{{ xp.context }}</p>
+              <ul>
+                <li v-for="task in xp.tasks">{{ task }}</li>
+              </ul>
+              <skill v-for="(category, name) in xp.env" :name="name" :category="category" :skill-style="skillStyle"></skill>
+            </div>
           </div>
         </div>
       </div>`
