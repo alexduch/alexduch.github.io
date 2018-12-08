@@ -26,9 +26,32 @@
   },
   "xp": [
     {
+      "position": "Développeur back-end",
+      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "dates": "05/2018 - 12/2018",
+      "location" : "Paris, France",
+      "context": "Développement de micro-services pour le traitement des demandes de brevet.",
+      "tasks": [
+        "Conception et développement",
+        "Résolution de bugs",
+        "Documentation"
+      ],
+      "env" : {
+        "Java": "language",
+        "Spring": "framework",
+        "JMS": "framework",
+        "MyBatis": "framework",
+        "SQL": "language",
+        "SQL Server": "tool",
+        "Maven": "tool",
+        "Jenkins": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
       "position": "Solution Architect",
       "company" : "Infotel (pour l'Office Européen des Brevets)",
-      "dates": "08/2017 - aujourd'hui",
+      "dates": "08/2017 - 07/2018",
       "location" : "La Haye, Pays-Bas",
       "context": "Conception, développement et documentation d’une nouvelle application web. L’application est un portail web permettant l’accès à diverses sources de document, la principale fonctionnalité étant un système de notifications périodiques des nouvelles publications scientifiques correspondant à une recherche prédéfinie par l’utilisateur.",
       "tasks": [

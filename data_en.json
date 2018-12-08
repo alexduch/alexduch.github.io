@@ -26,9 +26,32 @@
   },
   "xp": [
     {
+      "position": "Back-end developer",
+      "company" : "Infotel (for the European Patent Office)",
+      "dates": "05/2018 - 12/2018",
+      "location" : "Paris, France",
+      "context": "Development of new micro-services to support the patent granting process.",
+      "tasks": [
+        "Design and development",
+        "Bug fixing",
+        "Documentation"
+      ],
+      "env" : {
+        "Java": "language",
+        "Spring": "framework",
+        "JMS": "framework",
+        "MyBatis": "framework",
+        "SQL": "language",
+        "SQL Server": "tool",
+        "Maven": "tool",
+        "Jenkins": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
       "position": "Solution Architect",
       "company" : "Infotel (for the European Patent Office)",
-      "dates": "08/2017 - today",
+      "dates": "08/2017 - 07/2018",
       "location" : "The Hague, Netherlands",
       "context": "Design, development and documentation of a new Web application. This application is a portal giving access to several sources of Non Patent Literature. The main feature is a notification system for newly published documents matching a search registered by the user.",
       "tasks": [
