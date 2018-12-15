@@ -69,7 +69,7 @@ let rootComponent = new Vue({
   },
   methods: {
     fetchData: function() {
-      fetch(new Request(`data_${this.locale}.json`), this.dataRequestConfig)
+      fetch(new Request(`data/${this.locale}.json`), this.dataRequestConfig)
           .then(response => {
             if (!response.ok) {
               alert(`An error occurred: ${statusText}`);
