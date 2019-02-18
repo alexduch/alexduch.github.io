@@ -26,6 +26,32 @@
   },
   "xp": [
     {
+      "position": "Développeur Java/Javascript",
+      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "dates": "02/2019 - Aujourd'hui",
+      "location" : "Paris, France",
+      "context": "Maintenance d'applications Java.",
+      "tasks": [
+        "Résolution de bugs",
+        "Amélioration des performances",
+        "Conception et développement de nouvelles fonctionalités",
+        "Documentation"
+      ],
+      "env" : {
+        "Java": "language",
+        "Javascript": "language",
+        "Spring": "framework",
+        "Jersey": "framework",
+        "Hibernate": "framework",
+        "AngularJS": "framework",
+        "SQL": "language",
+        "SQL Server": "tool",
+        "Maven": "tool",
+        "Jenkins": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
       "position": "Développeur back-end",
       "company" : "Infotel (pour l'Office Européen des Brevets)",
       "dates": "05/2018 - 12/2018",

@@ -26,6 +26,32 @@
   },
   "xp": [
     {
+      "position": "Java & Javascript developer",
+      "company" : "Infotel (for the European Patent Office)",
+      "dates": "02/2019 - Today",
+      "location" : "Paris, France",
+      "context": "Maintenance of Java applications.",
+      "tasks": [
+        "Bug fixing",
+        "Performances improvements",
+        "Design and implementation of new features",
+        "Documentation"
+      ],
+      "env" : {
+        "Java": "language",
+        "Javascript": "language",
+        "Spring": "framework",
+        "Jersey": "framework",
+        "Hibernate": "framework",
+        "AngularJS": "framework",
+        "SQL": "language",
+        "SQL Server": "tool",
+        "Maven": "tool",
+        "Jenkins": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
       "position": "Back-end developer",
       "company" : "Infotel (for the European Patent Office)",
       "dates": "05/2018 - 12/2018",
