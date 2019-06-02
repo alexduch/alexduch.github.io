@@ -37,6 +37,7 @@
         "Design and implementation of new features",
         "Documentation"
       ],
+      "note": "Technical lead for internships and Infotel internal projects, on various stacks: Spring Boot, MEAN, Kubernetes...",
       "env" : {
         "Java": "language",
         "Javascript": "language",

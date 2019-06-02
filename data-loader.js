@@ -28,6 +28,7 @@ Vue.component('xp', {
               <ul>
                 <li v-for="task in xp.tasks">{{ task }}</li>
               </ul>
+              <p v-if="xp.note">{{ xp.note }}</p>
               <skill v-for="(category, name) in xp.env" :name="name" :category="category" :skill-style="skillStyle"></skill>
             </div>
           </div>

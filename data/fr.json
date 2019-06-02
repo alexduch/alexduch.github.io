@@ -37,6 +37,7 @@
         "Conception et développement de nouvelles fonctionalités",
         "Documentation"
       ],
+      "note": "Suivi de stages et de projets internes sur des stacks diverses : Spring Boot, MEAN, Kubernetes...",
       "env" : {
         "Java": "language",
         "Javascript": "language",
