@@ -41,3 +41,23 @@ export default class App extends Vue {
   }
 }
 </script>
+
+<style type="text/css">
+html {
+  font-size: 10pt;
+}
+
+.card {
+  height: 100%;
+}
+
+#contact > div {
+  flex-grow: 1;
+}
+
+@media print {
+  #skills {
+    font-size: 10pt;
+  }
+}
+</style>

@@ -8,29 +8,29 @@
     <div class="row d-flex justify-content-around align-items-center text-center p-3">
       <div class="col">
         <h2>
-          <a href="resources/duchenne.vcf">
-            <i class="fas fa-address-card" aria-hidden="true"></i>
+          <a href="assets/duchenne.vcf">
+            <fa icon="address-card"></fa>
           </a>
         </h2>
       </div>
       <div class="col">
         <h2>
           <a :href="'mailto:' + contact.mail">
-            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <fa icon="envelope"></fa>
           </a>
         </h2>
       </div>
       <div class="col">
         <h2>
           <a target="_blank" href="https://www.linkedin.com/in/alexandreduchenne/">
-            <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <fa :icon="['fab', 'linkedin']"></fa>
           </a>
         </h2>
       </div>
       <div class="col">
         <h2>
           <a target="_blank" href="https://github.com/alexduch">
-            <i class="fab fa-github" aria-hidden="true"></i>
+            <fa :icon="['fab', 'github']"></fa>
           </a>
         </h2>
       </div>
@@ -40,9 +40,18 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faAddressCard, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+library.add(faAddressCard, faEnvelope, faLinkedin, faGithub);
 
 @Component({
   props: ['title', 'contact'],
+  components: {
+    fa: FontAwesomeIcon,
+  },
 })
 export default class ContactOnScreenComponent extends Vue {
   public title!: string;

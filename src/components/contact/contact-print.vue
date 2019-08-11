@@ -11,7 +11,7 @@
       <span>{{ contact.phone }}</span>
     </div>
     <div id="qrcode" class="col-auto">
-      <img src="resources/contact.png" alt="Contact QR code (print only)" class="img-fluid" style="height: 3cm" />
+      <img src="assets/contact.png" alt="Contact QR code (print only)" class="img-fluid" style="height: 3cm" />
     </div>
   </div>
 </template>

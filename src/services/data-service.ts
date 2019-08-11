@@ -1,5 +1,5 @@
-import en from '../../data/en.json';
-import fr from '../../data/fr.json';
+import en from '../data/en.json';
+import fr from '../data/fr.json';
 
 export default class DataService {
   private data = new Map<string, any>();
