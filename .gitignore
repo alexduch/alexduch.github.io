@@ -5,6 +5,10 @@
 
 # User-specific stuff:
 .idea/
+.vscode/
+.sonarlint/
+
+dist/
 
 ### Node template
 # Logs
