@@ -2,18 +2,30 @@ import en from '../data/en.json';
 import fr from '../data/fr.json';
 
 export default class DataService {
-  private data = new Map<string, any>();
+  private internalData = new Map<string, any>();
+  private language: any;
 
   constructor() {
-    this.data.set('en', en);
-    this.data.set('fr', fr);
+    this.internalData.set('en', en);
+    this.internalData.set('fr', fr);
+    this.language = window.navigator.language;
   }
 
-  public getData(locale: string) {
-    const d = this.data.get(locale);
+  get data() {
+    const d = this.internalData.get(this.locale);
     if (!d) {
       return en;
     }
     return d;
+  }
+
+  set locale(language: string) {
+    if (this.internalData.has(language)) {
+      this.language = language;
+    }
+  }
+
+  get locale() {
+    return this.language;
   }
 }
