@@ -56,6 +56,7 @@ let rootComponent = new Vue({
   data: function() {
       return {
           me: {},
+          error: false,
           locale: navigator.language === 'fr' ? 'fr' : 'en',
           skillStyle: skillStyle,
           dataRequestConfig: {
@@ -73,14 +74,15 @@ let rootComponent = new Vue({
       fetch(new Request(`data/${this.locale}.json`), this.dataRequestConfig)
           .then(response => {
             if (!response.ok) {
-              alert(`An error occurred: ${statusText}`);
+              this.error = response.statusText;
             } else {
               return response.json();
             }
           })
           .then(data => {
               this.me = data;
-          });
+          })
+        .catch(error => this.error = error);
     }
   }
 });
