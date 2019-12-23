@@ -26,7 +26,7 @@
   },
   "xp": [
     {
-      "position": "Java & Javascript developer",
+      "position": "Java & Javascript lead developer",
       "company" : "Infotel (for the European Patent Office)",
       "dates": "02/2019 - Today",
       "location" : "Paris, France",
@@ -35,13 +35,16 @@
         "Bug fixing",
         "Performances improvements",
         "Design and implementation of new features",
-        "Documentation"
+        "Documentation",
+        "Design and implementation of proofs of concept",
+        "Code reviews and assistance to junior developers"
       ],
       "note": "Technical lead for internships and Infotel internal projects, on various stacks: Spring Boot, MEAN, Kubernetes...",
       "env" : {
         "Java": "language",
         "Javascript": "language",
         "Spring": "framework",
+        "Spring Boot": "framework",
         "Jersey": "framework",
         "Hibernate": "framework",
         "AngularJS": "framework",
@@ -49,6 +52,9 @@
         "SQL Server": "tool",
         "Maven": "tool",
         "Jenkins": "tool",
+        "Kubernetes": "tool",
+        "NodeJS": "tool",
+        "MongoDB": "tool",
         "SonarQube": "tool"
       }
     },

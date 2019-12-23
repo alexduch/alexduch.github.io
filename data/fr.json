@@ -26,7 +26,7 @@
   },
   "xp": [
     {
-      "position": "Développeur Java/Javascript",
+      "position": "Lead developer Java/Javascript",
       "company" : "Infotel (pour l'Office Européen des Brevets)",
       "dates": "02/2019 - Aujourd'hui",
       "location" : "Paris, France",
@@ -35,13 +35,16 @@
         "Résolution de bugs",
         "Amélioration des performances",
         "Conception et développement de nouvelles fonctionalités",
-        "Documentation"
+        "Documentation",
+        "Réalisation de preuves de concept",
+        "Revues de code et accompagnement de développeurs juniors"
       ],
       "note": "Suivi de stages et de projets internes sur des stacks diverses : Spring Boot, MEAN, Kubernetes...",
       "env" : {
         "Java": "language",
         "Javascript": "language",
         "Spring": "framework",
+        "Spring Boot": "framework",
         "Jersey": "framework",
         "Hibernate": "framework",
         "AngularJS": "framework",
@@ -49,6 +52,9 @@
         "SQL Server": "tool",
         "Maven": "tool",
         "Jenkins": "tool",
+        "Kubernetes": "tool",
+        "NodeJS": "tool",
+        "MongoDB": "tool",
         "SonarQube": "tool"
       }
     },
