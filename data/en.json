@@ -8,6 +8,7 @@
   "skills": { 
     "Angular": "framework",
     "CSS": "language",
+    "Git": "tool",
     "Hibernate": "framework",
     "HTML": "language",
     "Java": "language",
@@ -21,6 +22,7 @@
     "Spring Boot": "framework",
     "SQL": "language", 
     "SQL Server": "tool",
+    "SVN": "tool",
     "Typescript": "language",
     "Webpack": "tool"
   },
@@ -55,6 +57,8 @@
         "Kubernetes": "tool",
         "NodeJS": "tool",
         "MongoDB": "tool",
+        "Git": "tool",
+        "SVN": "tool",
         "SonarQube": "tool"
       }
     },
@@ -78,6 +82,7 @@
         "SQL Server": "tool",
         "Maven": "tool",
         "Jenkins": "tool",
+        "SVN": "tool",
         "SonarQube": "tool"
       }
     },
@@ -104,7 +109,8 @@
         "Angular 4": "framework", 
         "Webpack": "tool", 
         "Maven": "tool", 
-        "Jenkins": "tool", 
+        "Jenkins": "tool",
+        "Git": "tool",
         "SonarQube": "tool"
       }
     },
@@ -131,7 +137,8 @@
         "Webpack": "tool", 
         "Maven": "tool", 
         "Jenkins": "tool", 
-        "JBoss": "tool", 
+        "JBoss": "tool",
+        "SVN": "tool",
         "SonarQube": "tool"
       }
     },
@@ -155,7 +162,8 @@
         "JQuery": "framework",
         "Maven": "tool", 
         "Jenkins": "tool", 
-        "JBoss": "tool", 
+        "JBoss": "tool",
+        "SVN": "tool",
         "SonarQube": "tool"
       }
     },
@@ -179,7 +187,8 @@
         "JQuery": "framework",
         "Maven": "tool", 
         "Jenkins": "tool", 
-        "JBoss": "tool", 
+        "JBoss": "tool",
+        "SVN": "tool",
         "SonarQube": "tool"
       }
     }
