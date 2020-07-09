@@ -28,9 +28,36 @@
   },
   "xp": [
     {
+      "position": "Java/backend lead developer",
+      "company": "Infotel (for the European Patent Office)",
+      "dates": "02/2020 - Today",
+      "location": "Paris, France",
+      "context": "Migration from legacy systems (Mainframe applications, batch processes running on a custom ETL platform, Java web application running in JBoss) to microservices built on the Spring ecosystem and deployed in Kubernetes.",
+      "tasks": [
+        "Development of Spring Cloud Task applications to replace batch processes running on an internal ETL platform",
+        "Development of libraries of common components for those applications",
+        "Creation of data pipelines using Spring Cloud Dataflow Server",
+        "Training and support to the development team on the new technical stack"
+      ],
+      "env": {
+        "Java": "language",
+        "Spring Boot": "framework",
+        "Spring Cloud Task / Spring Batch": "framework",
+        "Spring Cloud Config": "tool",
+        "Hashicorp Vault": "tool",
+        "Maven": "tool",
+        "Jenkins": "tool",
+        "Docker": "tool",
+        "Kubernetes": "tool",
+        "Kafka": "tool",
+        "Git": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
       "position": "Java & Javascript lead developer",
       "company" : "Infotel (for the European Patent Office)",
-      "dates": "02/2019 - Today",
+      "dates": "02/2019 - 02/2020",
       "location" : "Paris, France",
       "context": "Maintenance of Java applications.",
       "tasks": [

@@ -28,9 +28,36 @@
   },
   "xp": [
     {
+      "position": "Lead developer Java/Backend",
+      "company": "Infotel (pour l'Office Européen des Brevets)",
+      "dates": "02/2020 - Aujourd'hui",
+      "location": "Paris, France",
+      "context": "Migration d'application legacy (batchs sur une plateforme d'ETL interne, applications Mainframe, application JBoss) vers des microservices Spring déployé dans Kubernetes.",
+      "tasks": [
+        "Développement d'applications Spring Cloud Task remplacant des processes bacth exécutés sur une platefrome D'ETL interne",
+        "Développement de bibliothèques de composants communs pour ces applications",
+        "Création de data pipelines avec Spring Cloud Dataflow Server",
+        "Support et accompagnement de l'équipe de développement sur l'utilisation des nouvelles technologies mises en oeuvre"
+      ],
+      "env": {
+        "Java": "language",
+        "Spring Boot": "framework",
+        "Spring Cloud Task / Spring Batch": "framework",
+        "Spring Cloud Config": "tool",
+        "Hashicorp Vault": "tool",
+        "Maven": "tool",
+        "Jenkins": "tool",
+        "Docker": "tool",
+        "Kubernetes": "tool",
+        "Kafka": "tool",
+        "Git": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
       "position": "Lead developer Java/Javascript",
       "company" : "Infotel (pour l'Office Européen des Brevets)",
-      "dates": "02/2019 - Aujourd'hui",
+      "dates": "02/2019 - 02/2020",
       "location" : "Paris, France",
       "context": "Maintenance d'applications Java.",
       "tasks": [
