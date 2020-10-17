@@ -32,7 +32,7 @@
       "company": "Infotel (pour l'Office Européen des Brevets)",
       "dates": "02/2020 - Aujourd'hui",
       "location": "Paris, France",
-      "context": "Migration d'application legacy (batchs sur une plateforme d'ETL interne, applications Mainframe, application JBoss) vers des microservices Spring déployé dans Kubernetes.",
+      "context": "Migration d'application legacy (batchs sur une plateforme d'ETL interne, applications Mainframe, applications JBoss) vers des microservices Spring déployé dans Kubernetes.",
       "tasks": [
         "Développement d'applications Spring Cloud Task remplacant des processes bacth exécutés sur une platefrome D'ETL interne",
         "Développement de bibliothèques de composants communs pour ces applications",

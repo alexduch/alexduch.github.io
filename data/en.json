@@ -32,7 +32,7 @@
       "company": "Infotel (for the European Patent Office)",
       "dates": "02/2020 - Today",
       "location": "Paris, France",
-      "context": "Migration from legacy systems (Mainframe applications, batch processes running on a custom ETL platform, Java web application running in JBoss) to microservices built on the Spring ecosystem and deployed in Kubernetes.",
+      "context": "Migration from legacy systems (Mainframe applications, batch processes running on a custom ETL platform, Java web applications running in JBoss) to microservices built on the Spring ecosystem and deployed in Kubernetes.",
       "tasks": [
         "Development of Spring Cloud Task applications to replace batch processes running on an internal ETL platform",
         "Development of libraries of common components for those applications",
