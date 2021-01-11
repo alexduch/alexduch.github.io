@@ -69,10 +69,10 @@
           <section id="skills" class="col order-md-1 order-2 mt-3" v-if="me.skills">
             <h2>{{ me.sections.skills }}</h2>
             <h4 class="p-3">
-              <skill
-                v-for="(category, name) in me.skills"
-                :name="name"
-                :category="category"
+              <skill 
+                v-for="(category, name) in me.skills" 
+                :name="name" 
+                :category="category" 
                 :skill-style="skillStyle"
               ></skill>
             </h4>
@@ -150,7 +150,7 @@
       </footer>
     </div>
 
-    <script src="https://vuejs.org/js/vue.min.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
     <script src="./data-loader.js"></script>
   </body>
 </html>

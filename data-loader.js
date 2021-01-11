@@ -9,12 +9,47 @@ const dataRequestConfig = {
   credentials: 'same-origin'
 };
 
-Vue.component('skill', {
+const app = Vue.createApp({
+  data: function () {
+    return {
+      me: {},
+      error: false,
+      locale: navigator.language === 'fr' ? 'fr' : 'en',
+      skillStyle: skillStyle,
+      dataRequestConfig: {
+        method: 'GET',
+        mode: 'same-origin',
+        credentials: 'same-origin'
+      }
+    };
+  },
+  created: function () {
+    this.fetchData();
+  },
+  methods: {
+    fetchData: function () {
+      fetch(new Request(`data/${this.locale}.json`), this.dataRequestConfig)
+        .then(response => {
+          if (!response.ok) {
+            this.error = response.statusText;
+          } else {
+            return response.json();
+          }
+        })
+        .then(data => {
+          this.me = data;
+        })
+        .catch(error => this.error = error);
+    }
+  }
+});
+
+app.component('skill', {
   props: ['name', 'category', 'skillStyle'],
   template: `<span :class="'m-1 badge badge-pill badge-' + skillStyle.get(category)">{{ name }}</span>`
 });
 
-Vue.component('xp', {
+app.component('xp', {
   props: ['xp', 'skillStyle'],
   template:
       `<div class="row">
@@ -36,7 +71,7 @@ Vue.component('xp', {
       </div>`
 });
 
-Vue.component('training', {
+app.component('training', {
   props: ['dates', 'school', 'training', 'description'],
   template:
       `<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-1">
@@ -51,38 +86,4 @@ Vue.component('training', {
       </div>`
 });
 
-let rootComponent = new Vue({
-  el: '#main',
-  data: function() {
-      return {
-          me: {},
-          error: false,
-          locale: navigator.language === 'fr' ? 'fr' : 'en',
-          skillStyle: skillStyle,
-          dataRequestConfig: {
-            method: 'GET',
-            mode: 'same-origin',
-            credentials: 'same-origin'
-          }
-      };
-  },
-  created: function() {
-    this.fetchData();
-  },
-  methods: {
-    fetchData: function() {
-      fetch(new Request(`data/${this.locale}.json`), this.dataRequestConfig)
-          .then(response => {
-            if (!response.ok) {
-              this.error = response.statusText;
-            } else {
-              return response.json();
-            }
-          })
-          .then(data => {
-              this.me = data;
-          })
-        .catch(error => this.error = error);
-    }
-  }
-});
+app.mount('#main');
