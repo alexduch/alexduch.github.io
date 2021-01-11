@@ -1,7 +1,7 @@
 const skillStyle = new Map();
 skillStyle.set('language', 'warning');
 skillStyle.set('framework', 'success');
-skillStyle.set('tool', 'info');
+skillStyle.set('tool', 'primary');
 
 const dataRequestConfig = {
   method: 'GET',
@@ -46,7 +46,7 @@ const app = Vue.createApp({
 
 app.component('skill', {
   props: ['name', 'category', 'skillStyle'],
-  template: `<span :class="'m-1 badge badge-pill badge-' + skillStyle.get(category)">{{ name }}</span>`
+  template: `<span :class="'m-1 badge rounded-pill bg-' + skillStyle.get(category)">{{ name }}</span>`
 });
 
 app.component('xp', {
