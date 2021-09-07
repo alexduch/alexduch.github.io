@@ -28,9 +28,35 @@
   },
   "xp": [
     {
+      "position": "Développeur Java/Angular",
+      "company": "La Combe du Lion Vert (pour l'ANTAI via Polyconseil)",
+      "dates": "06/2020 - Aujourd'hui",
+      "location": "Paris, France",
+      "context": "Maintenance d'une application de traitement des infractions",
+      "tasks": [
+        "Application de correctif sur le code existant",
+        "Maintenance évolutive",
+        "Conception et développement de nouvelle fonctionnalités"
+      ],
+      "env": {
+        "Java": "language",
+        "Spring Boot": "framework",
+        "Maven": "tool",
+        "Angular": "framework",
+        "Jenkins": "tool",
+        "Docker": "tool",
+        "Typescript": "language",
+        "AWS": "tool",
+        "Git": "tool",
+        "SQL": "language",
+        "GitHub": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
       "position": "Lead developer Java/Backend",
       "company": "Infotel (pour l'Office Européen des Brevets)",
-      "dates": "02/2020 - Aujourd'hui",
+      "dates": "02/2020 - 06/2021",
       "location": "Paris, France",
       "context": "Migration d'application legacy (batchs sur une plateforme d'ETL interne, applications Mainframe, applications JBoss) vers des microservices Spring déployé dans Kubernetes.",
       "tasks": [

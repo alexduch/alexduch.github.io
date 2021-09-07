@@ -28,9 +28,35 @@
   },
   "xp": [
     {
+      "position": "Java/Angular developer",
+      "company": "La Combe du Lion Vert (for ANTAI (french National agency for automated offence processing) via Polyconseil)",
+      "dates": "06/2021 - Today",
+      "location": "Paris, France",
+      "context": "Maintenance of an offence processing application.",
+      "tasks": [
+        "Corrective maintenance",
+        "Evolutive maintenance",
+        "Design and implementation of new features"
+      ],
+      "env": {
+        "Java": "language",
+        "Spring Boot": "framework",
+        "Maven": "tool",
+        "Angular": "framework",
+        "Jenkins": "tool",
+        "Docker": "tool",
+        "Typescript": "language",
+        "AWS": "tool",
+        "Git": "tool",
+        "SQL": "language",
+        "GitHub": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
       "position": "Java/backend lead developer",
       "company": "Infotel (for the European Patent Office)",
-      "dates": "02/2020 - Today",
+      "dates": "02/2020 - 06/2021",
       "location": "Paris, France",
       "context": "Migration from legacy systems (Mainframe applications, batch processes running on a custom ETL platform, Java web applications running in JBoss) to microservices built on the Spring ecosystem and deployed in Kubernetes.",
       "tasks": [
