@@ -44,6 +44,11 @@ const app = Vue.createApp({
   }
 });
 
+app.component('section-title', {
+  props: ['title'],
+  template: `<h2>{{ title }}</h2>`
+});
+
 app.component('skill', {
   props: ['name', 'category', 'skillStyle'],
   template: `<span :class="'m-1 badge rounded-pill bg-' + skillStyle.get(category)">{{ name }}</span>`
