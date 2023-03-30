@@ -36,7 +36,10 @@
       "tasks": [
         "Corrective maintenance",
         "Evolutive maintenance",
-        "Design and implementation of new features"
+        "Design and implementation of new features",
+        "Interfacing with ops to prepare production releases",
+        "Training of interns and juniors",
+        "Design and facilitation of short trainings for the whole team"
       ],
       "env": {
         "Java": "language",

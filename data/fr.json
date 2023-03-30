@@ -30,13 +30,16 @@
     {
       "position": "Développeur Java/Angular",
       "company": "La Combe du Lion Vert (pour l'ANTAI via Polyconseil)",
-      "dates": "06/2020 - Aujourd'hui",
+      "dates": "06/2021 - Aujourd'hui",
       "location": "Paris, France",
       "context": "Maintenance d'une application de traitement des infractions",
       "tasks": [
         "Application de correctif sur le code existant",
         "Maintenance évolutive",
-        "Conception et développement de nouvelle fonctionnalités"
+        "Conception et développement de nouvelle fonctionnalités",
+        "Interactions avec les équipes TME pour la préparation de mises en production",
+        "Encadrement de stagiaires et développeurs juniors",
+        "Conception et animation de formations courtes pour toute l'équipe"
       ],
       "env": {
         "Java": "language",
