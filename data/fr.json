@@ -7,24 +7,20 @@
   },
   "skills": {
     "Angular": "framework",
-    "CSS": "language",
+    "Docker": "tool",
     "Git": "tool",
-    "Hibernate": "framework",
-    "HTML": "language",
+    "Helm": "tool",
     "Java": "language",
     "Javascript": "language",
-    "JBoss": "tool",
     "Jenkins": "tool",
-    "JQuery": "framework",
+    "Kubernetes": "tool",
     "Maven": "tool",
     "SonarQube": "tool",
-    "Spring": "framework",
+    "Spring Cloud": "framework",
+    "Spring Batch": "framework",
     "Spring Boot": "framework",
     "SQL": "language",
-    "SQL Server": "tool",
-    "SVN": "tool",
-    "Typescript": "language",
-    "Webpack": "tool"
+    "Typescript": "language"
   },
   "xp": [
     {

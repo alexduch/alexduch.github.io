@@ -5,26 +5,22 @@
     "mail": "duchenne.alexandre@gmail.com",
     "phone": "+33 (0)6 79 79 57 14"
   },
-  "skills": { 
+  "skills": {
     "Angular": "framework",
-    "CSS": "language",
+    "Docker": "tool",
     "Git": "tool",
-    "Hibernate": "framework",
-    "HTML": "language",
+    "Helm": "tool",
     "Java": "language",
-    "Javascript": "language", 
-    "JBoss": "tool",
+    "Javascript": "language",
     "Jenkins": "tool",
-    "JQuery": "framework",
-    "Maven": "tool", 
+    "Kubernetes": "tool",
+    "Maven": "tool",
     "SonarQube": "tool",
-    "Spring": "framework",
+    "Spring Cloud": "framework",
+    "Spring Batch": "framework",
     "Spring Boot": "framework",
-    "SQL": "language", 
-    "SQL Server": "tool",
-    "SVN": "tool",
-    "Typescript": "language",
-    "Webpack": "tool"
+    "SQL": "language",
+    "Typescript": "language"
   },
   "xp": [
     {
