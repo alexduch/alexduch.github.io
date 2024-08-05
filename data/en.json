@@ -28,9 +28,39 @@
   },
   "xp": [
     {
+      "position": "Tech Lead",
+      "company": "La Combe du Lion Vert, then Arolla (for Société Générale)",
+      "dates": "07/2022 - 08/2022",
+      "location": "Paris, France",
+      "context": "I joined a team in charge of developping and maintaining a tool used to compute an accounting reserve on profits from complex financial products. I was initially supposed to take over the Tech Lead position, but the former one actually stayed on the team.\nMy role was that of a technical expert, in charge of infrastructure upgrades and technical migrations, and of a reference in terms of architecture and best pratcices ",
+      "tasks": [
+        "Set up infrastructure redundancy to improve the application's resilience",
+        "Apache Spark (Azure HD Insight) upgrade from 2.4 to 3.3 (HDI 4.0 to 5.1)",
+        "Kubernetes upgrade",
+        "Set up CI/CD pipelines",
+        "Set up Terraform"
+      ],
+      "env": {
+        "Java": "language",
+        "Spring Boot": "framework",
+        "Maven": "tool",
+        "Angular": "framework",
+        "Jenkins": "tool",
+        "Docker": "tool",
+        "Typescript": "language",
+        "Azure": "tool",
+        "Git": "tool",
+        "SQL": "language",
+        "GitHub": "tool",
+        "SonarQube": "tool",
+        "Kubernetes": "tool",
+        "helm": "tool"
+      }
+    },
+    {
       "position": "Java/Angular developer",
       "company": "La Combe du Lion Vert (for ANTAI (french National agency for automated offence processing) via Polyconseil)",
-      "dates": "06/2021 - Today",
+      "dates": "06/2021 - 07/2022",
       "location": "Paris, France",
       "context": "Maintenance of an offence processing application.",
       "tasks": [

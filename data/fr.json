@@ -5,22 +5,22 @@
     "mail": "duchenne.alexandre@gmail.com",
     "phone": "+33 (0)6 79 79 57 14"
   },
-  "skills": { 
+  "skills": {
     "Angular": "framework",
     "CSS": "language",
     "Git": "tool",
     "Hibernate": "framework",
     "HTML": "language",
     "Java": "language",
-    "Javascript": "language", 
+    "Javascript": "language",
     "JBoss": "tool",
     "Jenkins": "tool",
     "JQuery": "framework",
-    "Maven": "tool", 
+    "Maven": "tool",
     "SonarQube": "tool",
     "Spring": "framework",
     "Spring Boot": "framework",
-    "SQL": "language", 
+    "SQL": "language",
     "SQL Server": "tool",
     "SVN": "tool",
     "Typescript": "language",
@@ -28,9 +28,39 @@
   },
   "xp": [
     {
+      "position": "Lead Tech",
+      "company": "La Combe du Lion Vert, puis Arolla (pour la Société Générale)",
+      "dates": "07/2022 - 08/2022",
+      "location": "Paris, France",
+      "context": "L'équipe que j'ai rejoint est en charge d’un outil de calcul de réserve comptable sur les bénéfices estimés de produits financiers complexes. L'objectif était de remplacer le Lead Tech précédent qui est finalement resté dans l'équipe.\nEn pratique, mon rôle a été celui d’un expert technique en charge de mises à jour de l’infrastructure et de migrations techniques, et de référent en termes d’architecture, d’infrastructure et de bonnes pratiques.",
+      "tasks": [
+        "Mise en place de redondance dans l’infrastructure pour améliorer la résilience de l’application",
+        "Montée de version de Apache Spark (Azure HD Insight) de 2.4 vers 3.3 (HDI 4.0 vers 5.1)",
+        "Montées de version de Kubernetes",
+        "Mise en place de pipelines CI/CD",
+        "Mise en place de Terraform"
+      ],
+      "env": {
+        "Java": "language",
+        "Spring Boot": "framework",
+        "Maven": "tool",
+        "Angular": "framework",
+        "Jenkins": "tool",
+        "Docker": "tool",
+        "Typescript": "language",
+        "Azure": "tool",
+        "Git": "tool",
+        "SQL": "language",
+        "GitHub": "tool",
+        "SonarQube": "tool",
+        "Kubernetes": "tool",
+        "helm": "tool"
+      }
+    },
+    {
       "position": "Développeur Java/Angular",
       "company": "La Combe du Lion Vert (pour l'ANTAI via Polyconseil)",
-      "dates": "06/2021 - Aujourd'hui",
+      "dates": "06/2021 - 07/2022",
       "location": "Paris, France",
       "context": "Maintenance d'une application de traitement des infractions",
       "tasks": [
@@ -85,9 +115,9 @@
     },
     {
       "position": "Lead developer Java/Javascript",
-      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Infotel (pour l'Office Européen des Brevets)",
       "dates": "02/2019 - 02/2020",
-      "location" : "Paris, France",
+      "location": "Paris, France",
       "context": "Maintenance d'applications Java.",
       "tasks": [
         "Résolution de bugs",
@@ -98,7 +128,7 @@
         "Revues de code et accompagnement de développeurs juniors"
       ],
       "note": "Suivi de stages et de projets internes sur des stacks diverses : Spring Boot, MEAN, Kubernetes...",
-      "env" : {
+      "env": {
         "Java": "language",
         "Javascript": "language",
         "Spring": "framework",
@@ -120,16 +150,16 @@
     },
     {
       "position": "Développeur back-end",
-      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Infotel (pour l'Office Européen des Brevets)",
       "dates": "05/2018 - 12/2018",
-      "location" : "Paris, France",
+      "location": "Paris, France",
       "context": "Développement de micro-services pour le traitement des demandes de brevet.",
       "tasks": [
         "Conception et développement",
         "Résolution de bugs",
         "Documentation"
       ],
-      "env" : {
+      "env": {
         "Java": "language",
         "Spring": "framework",
         "JMS": "framework",
@@ -144,9 +174,9 @@
     },
     {
       "position": "Solution Architect",
-      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Infotel (pour l'Office Européen des Brevets)",
       "dates": "08/2017 - 07/2018",
-      "location" : "La Haye, Pays-Bas",
+      "location": "La Haye, Pays-Bas",
       "context": "Conception, développement et documentation d’une nouvelle application web. L’application est un portail web permettant l’accès à diverses sources de document, la principale fonctionnalité étant un système de notifications périodiques des nouvelles publications scientifiques correspondant à une recherche prédéfinie par l’utilisateur.",
       "tasks": [
         "Compréhension des besoins utilisateurs",
@@ -154,17 +184,17 @@
         "Participation au développement",
         "Documentation"
       ],
-      "env" : {
-        "Java": "language", 
-        "Typescript": "language", 
-        "HTML": "language", 
-        "CSS": "language", 
-        "SQL": "language", 
-        "SQL Server": "tool", 
-        "Spring Boot": "framework", 
-        "Angular 4": "framework", 
-        "Webpack": "tool", 
-        "Maven": "tool", 
+      "env": {
+        "Java": "language",
+        "Typescript": "language",
+        "HTML": "language",
+        "CSS": "language",
+        "SQL": "language",
+        "SQL Server": "tool",
+        "Spring Boot": "framework",
+        "Angular 4": "framework",
+        "Webpack": "tool",
+        "Maven": "tool",
         "Jenkins": "tool",
         "Git": "tool",
         "SonarQube": "tool"
@@ -172,27 +202,27 @@
     },
     {
       "position": "Lead developer",
-      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Infotel (pour l'Office Européen des Brevets)",
       "dates": "09/2016 - 08/2017",
-      "location" : "La Haye, Pays-Bas",
+      "location": "La Haye, Pays-Bas",
       "context": "Développement d’une nouvelle application web. Le but du projet est de remplacer une application Lotus Notes et d’automatiser certaines opérations de gestion de commandes et d’enrichissement de données bibliographiques.",
       "tasks": [
         "Participation à la conception",
         "Implémentation"
       ],
-      "env" : {
-        "Java": "language", 
-        "Typescript": "language", 
-        "HTML": "language", 
-        "CSS": "language", 
+      "env": {
+        "Java": "language",
+        "Typescript": "language",
+        "HTML": "language",
+        "CSS": "language",
         "SQL": "language",
-        "SQL Server": "tool", 
-        "Spring": "framework", 
-        "Hibernate": "framework", 
+        "SQL Server": "tool",
+        "Spring": "framework",
+        "Hibernate": "framework",
         "Angular 2": "framework",
-        "Webpack": "tool", 
-        "Maven": "tool", 
-        "Jenkins": "tool", 
+        "Webpack": "tool",
+        "Maven": "tool",
+        "Jenkins": "tool",
         "JBoss": "tool",
         "SVN": "tool",
         "SonarQube": "tool"
@@ -200,9 +230,9 @@
     },
     {
       "position": "Java & Javascript developer",
-      "company" : "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Infotel (pour l'Office Européen des Brevets)",
       "dates": "09/2015 - 09/2016",
-      "location" : "Paris, France",
+      "location": "Paris, France",
       "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
       "tasks": [
         "Correction de bugs ou adaptation de l’application aux cas non pris en charge, suite aux retours des utilisateurs",
@@ -210,41 +240,41 @@
         "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
         "Contexte de travail international, communications en anglais"
       ],
-      "env" : {
-        "Java": "language", 
+      "env": {
+        "Java": "language",
         "Javascript": "language",
         "DB2": "tool",
-        "Spring": "framework", 
-        "Hibernate": "framework", 
-        "JQuery": "framework",
-        "Maven": "tool", 
-        "Jenkins": "tool", 
-        "JBoss": "tool",
-        "SVN": "tool",
-        "SonarQube": "tool"
-      }
-    },
-    {
-      "position": "Java & Javascript developer",
-      "company" : "Adaming (pour Infotel et l'Office Européen des Brevets)",
-      "dates": "02/2015 - 08/2015",
-      "location" : "Paris, France",
-      "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
-      "tasks": [
-        "Correction de bugs ou adaptation de l’application aux cas non pris en charge, suite aux retours des utilisateurs",
-        "Conception et implémentation d’évolutions souhaitées par les utilisateurs",
-        "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
-        "Contexte de travail international, communications en anglais"
-      ],
-      "env" : {
-        "Java": "language", 
-        "Javascript": "language",
-        "DB2": "tool",
-        "Spring": "framework", 
+        "Spring": "framework",
         "Hibernate": "framework",
         "JQuery": "framework",
-        "Maven": "tool", 
-        "Jenkins": "tool", 
+        "Maven": "tool",
+        "Jenkins": "tool",
+        "JBoss": "tool",
+        "SVN": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
+      "position": "Java & Javascript developer",
+      "company": "Adaming (pour Infotel et l'Office Européen des Brevets)",
+      "dates": "02/2015 - 08/2015",
+      "location": "Paris, France",
+      "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
+      "tasks": [
+        "Correction de bugs ou adaptation de l’application aux cas non pris en charge, suite aux retours des utilisateurs",
+        "Conception et implémentation d’évolutions souhaitées par les utilisateurs",
+        "Préparation et suivi de la mise en production des mises à jour de l’application, avec assistance aux personnes chargées de la validation et des déploiements",
+        "Contexte de travail international, communications en anglais"
+      ],
+      "env": {
+        "Java": "language",
+        "Javascript": "language",
+        "DB2": "tool",
+        "Spring": "framework",
+        "Hibernate": "framework",
+        "JQuery": "framework",
+        "Maven": "tool",
+        "Jenkins": "tool",
         "JBoss": "tool",
         "SVN": "tool",
         "SonarQube": "tool"
