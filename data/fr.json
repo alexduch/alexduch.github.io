@@ -24,9 +24,32 @@
   },
   "xp": [
     {
+      "position": "Software Engineer",
+      "company": "Arolla (pour l'Agence France Presse)",
+      "dates": "12/2024 - today",
+      "location": "Paris, France",
+      "context": "Dans l'équipe en charge de l'API utilisée par les clients de l'AFP pour accéder à ses contenus ainsi qu'à ceux de partenaires. La plateforme est composées de microservices écrit principalement en Java/Spring Boot ou NodeJS. L'équipe est également en charge de l'opération en production de la plateforme.",
+      "tasks": [
+        "Maintenance corrective et évolutive",
+        "Contribution à la conception et aux décisions d'architecture pour les nouvelles fonctionnalités",
+        "Contribution à la CI/CD et à l'automatisation",
+        "Modernisation de legacy"
+      ],
+      "env": {
+        "Java": "language",
+        "Spring Boot": "framework",
+        "Maven": "tool",
+        "Docker": "tool",
+        "AWS": "tool",
+        "Git": "tool",
+        "SQL": "language",
+        "GitHub": "tool"
+      }
+    },
+    {
       "position": "Lead Tech",
       "company": "La Combe du Lion Vert, puis Arolla (pour la Société Générale)",
-      "dates": "07/2022 - 08/2022",
+      "dates": "07/2022 - 08/2024",
       "location": "Paris, France",
       "context": "L'équipe que j'ai rejoint est en charge d’un outil de calcul de réserve comptable sur les bénéfices estimés de produits financiers complexes. L'objectif était de remplacer le Lead Tech précédent qui est finalement resté dans l'équipe.\nEn pratique, mon rôle a été celui d’un expert technique en charge de mises à jour de l’infrastructure et de migrations techniques, et de référent en termes d’architecture, d’infrastructure et de bonnes pratiques.",
       "tasks": [

@@ -24,9 +24,32 @@
   },
   "xp": [
     {
+      "position": "Software Engineer",
+      "company": "Arolla (for Agence France Presse)",
+      "dates": "12/2024 - today",
+      "location": "Paris, France",
+      "context": "I joined a team in charge of maintaining and evolving the API used by AFP clients to access the contents produced by AFP and its partners. This API platform is composed of microservices mostly written in Java/Spring Boot or NodeJS. The team is in charge operating the platform as well as building it.",
+      "tasks": [
+        "Corrective and evolutive maintenance",
+        "Contribution to design and architecture decisions for new features",
+        "Contribution to CI/CD and automation",
+        "Legacy modernization"
+      ],
+      "env": {
+        "Java": "language",
+        "Spring Boot": "framework",
+        "Maven": "tool",
+        "Docker": "tool",
+        "AWS": "tool",
+        "Git": "tool",
+        "SQL": "language",
+        "GitHub": "tool"  
+      }
+    },
+    {
       "position": "Tech Lead",
       "company": "La Combe du Lion Vert, then Arolla (for Société Générale)",
-      "dates": "07/2022 - 08/2022",
+      "dates": "07/2022 - 08/2024",
       "location": "Paris, France",
       "context": "I joined a team in charge of developping and maintaining a tool used to compute an accounting reserve on profits from complex financial products. I was initially supposed to take over the Tech Lead position, but the former one actually stayed on the team.\nMy role was that of a technical expert, in charge of infrastructure upgrades and technical migrations, and of a reference in terms of architecture and best pratcices ",
       "tasks": [
