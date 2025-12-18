@@ -26,7 +26,7 @@
     {
       "position": "Software Engineer",
       "company": "Arolla (pour l'Agence France Presse)",
-      "dates": "12/2024 - today",
+      "dates": "12/2024 - Aujourd'hui",
       "location": "Paris, France",
       "context": "Dans l'équipe en charge de l'API utilisée par les clients de l'AFP pour accéder à ses contenus ainsi qu'à ceux de partenaires. La plateforme est composées de microservices écrit principalement en Java/Spring Boot ou NodeJS. L'équipe est également en charge de l'opération en production de la plateforme.",
       "tasks": [
@@ -42,8 +42,10 @@
         "Docker": "tool",
         "AWS": "tool",
         "Git": "tool",
-        "SQL": "language",
-        "GitHub": "tool"
+        "GitHub": "tool",
+        "MongoDB":  "tool",
+        "ansible": "tool",
+        "elasticsearch": "tool"
       }
     },
     {

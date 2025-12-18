@@ -42,8 +42,10 @@
         "Docker": "tool",
         "AWS": "tool",
         "Git": "tool",
-        "SQL": "language",
-        "GitHub": "tool"  
+        "GitHub": "tool",
+        "MongoDB":  "tool",
+        "ansible": "tool",
+        "elasticsearch": "tool"
       }
     },
     {
