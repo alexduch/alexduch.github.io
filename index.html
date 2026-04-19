@@ -43,8 +43,18 @@
       <header class="d-print-none">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="header">
           <div class="container">
-            <img src="resources/pic.jpg" alt="Prorile picture" class="rounded-circle navbar-brand p-0" height="75" />
-            <span class="navbar-brand">Alexandre DUCHENNE</span>
+            <div>
+              <img src="resources/pic.jpg" alt="avatar" class="rounded-circle navbar-brand p-0" height="75" />
+              <span class="navbar-brand">Alexandre DUCHENNE</span>
+            </div>
+            <div class="d-flex justify-content-end">
+              <form>
+                <select id="languageSelector" class="form-select" @change="fetchData()" v-model="locale">
+                  <option value="fr">FR</option>
+                  <option value="en">EN</option>
+                </select>
+              </form>
+            </div>
           </div>
         </nav>
       </header>
@@ -135,16 +145,7 @@
       </main>
 
       <footer class="d-print-none">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="footer">
-          <div class="container d-flex justify-content-end">
-            <form>
-              <select id="languageSelector" class="form-select" @change="fetchData()" v-model="locale">
-                <option value="fr">FR</option>
-                <option value="en">EN</option>
-              </select>
-            </form>
-          </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="footer"></nav>
       </footer>
     </div>
 
