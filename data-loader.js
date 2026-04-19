@@ -30,10 +30,10 @@ const app = Vue.createApp({
     fetchData: function () {
       fetch(new Request(`data/${this.locale}.json`), this.dataRequestConfig)
         .then(response => {
-          if (!response.ok) {
-            this.error = response.statusText;
-          } else {
+          if (response.ok) {
             return response.json();
+          } else {
+            this.error = response.statusText;
           }
         })
         .then(data => {
