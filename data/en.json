@@ -22,6 +22,10 @@
     "SQL": "language",
     "Typescript": "language"
   },
+  "about": [
+    "Aiming to write maintainable and efficient software, I want to use my skills to improve user experience as well as developer experience, share the knowledge I gathered and keep learning.",
+    "I have been a software developer since 2015, mostly on the backend side, Java and the Spring Framework ecosystem being my main expertise. I am also able to work with Javascript and Typescript, either for backend with NodeJS or frontend (with Angular in particular). My interest for developer experience and devops lead me to work on deployment and delivery processes as well as their automation, with various tools like Maven, npm, webpack, Jenkins, Gitlab CI, Github Actions, ansible et Terraform."
+  ],
   "xp": [
     {
       "position": "Software Engineer",
@@ -323,6 +327,7 @@
   "sections": {
     "skills": "Skills",
     "contact": "Contact",
+    "about": "About me",
     "xp": "Professional experience",
     "education": "Education"
   }

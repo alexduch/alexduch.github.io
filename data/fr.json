@@ -22,6 +22,10 @@
     "SQL": "language",
     "Typescript": "language"
   },
+  "about": [
+    "Animé par la recherche de qualité et d’efficacité, je veux mettre mes compétences au profit de l’expérience utilisateur comme de l’expérience développeur, partager mes connaissances et en en acquérir de nouvelles.",
+    "Développeur depuis 2015, principalement en backend, Java et l'écosystème Spring constituent le coeur de mon expertise. Je peux également intervenir sur du Javascript ou Typescript, que ce soit en backend avec NodeJS ou en frontend (avec Angular en particulier). Mon intérêt pour l'expérience développeur et le devops m'a aussi amené à travailler sur les processus de livraison et de déploiement ainsi que leur automatisation, avec des outils aussi variés que Maven, npm, webpack, Jenkins, Gitlab CI, Github Actions, ansible et Terraform."
+  ],
   "xp": [
     {
       "position": "Software Engineer",
@@ -325,6 +329,7 @@
   "sections": {
     "skills": "Compétences",
     "contact": "Contact",
+    "about": "A propos de moi",
     "xp": "Expérience",
     "education": "Formation"
   }
