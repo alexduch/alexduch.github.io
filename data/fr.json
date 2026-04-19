@@ -112,9 +112,9 @@
       "company": "Infotel (pour l'Office Européen des Brevets)",
       "dates": "02/2020 - 06/2021",
       "location": "Paris, France",
-      "context": "Migration d'application legacy (batchs sur une plateforme d'ETL interne, applications Mainframe, applications JBoss) vers des microservices Spring déployé dans Kubernetes.",
+      "context": "Migration d'application legacy (batchs sur une plateforme ETL interne, applications Mainframe, applications JBoss) vers des microservices Spring déployé dans Kubernetes.",
       "tasks": [
-        "Développement d'applications Spring Cloud Task remplacant des processes bacth exécutés sur une platefrome D'ETL interne",
+        "Développement d'applications Spring Cloud Task remplaçant des processes batch exécutés sur une plateforme ETL interne",
         "Développement de bibliothèques de composants communs pour ces applications",
         "Création de data pipelines avec Spring Cloud Dataflow Server",
         "Support et accompagnement de l'équipe de développement sur l'utilisation des nouvelles technologies mises en oeuvre"
@@ -124,7 +124,7 @@
         "Spring Boot": "framework",
         "Spring Cloud Task / Spring Batch": "framework",
         "Spring Cloud Config": "tool",
-        "Hashicorp Vault": "tool",
+        "HashiCorp Vault": "tool",
         "Maven": "tool",
         "Jenkins": "tool",
         "Docker": "tool",
@@ -143,7 +143,7 @@
       "tasks": [
         "Résolution de bugs",
         "Amélioration des performances",
-        "Conception et développement de nouvelles fonctionalités",
+        "Conception et développement de nouvelles fonctionnalités",
         "Documentation",
         "Réalisation de preuves de concept",
         "Revues de code et accompagnement de développeurs juniors"
@@ -267,7 +267,7 @@
         "DB2": "tool",
         "Spring": "framework",
         "Hibernate": "framework",
-        "JQuery": "framework",
+        "Jquery": "framework",
         "Maven": "tool",
         "Jenkins": "tool",
         "JBoss": "tool",
@@ -293,7 +293,7 @@
         "DB2": "tool",
         "Spring": "framework",
         "Hibernate": "framework",
-        "JQuery": "framework",
+        "Jquery": "framework",
         "Maven": "tool",
         "Jenkins": "tool",
         "JBoss": "tool",
