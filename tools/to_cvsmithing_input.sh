@@ -1,0 +1,1 @@
+cat ../data/fr.json | jq --from-file ./to_cv_smithing.jq | yq -P
