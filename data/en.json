@@ -31,7 +31,7 @@
   "xp": [
     {
       "position": "Software Engineer",
-      "company": "Arolla (for Agence France Presse)",
+      "company": "AFP (Agence France Presse) (through Arolla)",
       "dates": "12/2024 - today",
       "location": "Paris, France",
       "context": "I joined a team in charge of maintaining and evolving the API used by AFP clients to access the contents produced by AFP and its partners. This API platform is composed of microservices mostly written in Java/Spring Boot or NodeJS. The team is in charge operating the platform as well as building it.",
@@ -49,14 +49,14 @@
         "AWS": "tool",
         "Git": "tool",
         "GitHub": "tool",
-        "MongoDB":  "tool",
+        "MongoDB": "tool",
         "ansible": "tool",
         "elasticsearch": "tool"
       }
     },
     {
       "position": "Tech Lead",
-      "company": "La Combe du Lion Vert, then Arolla (for Société Générale)",
+      "company": "Société Générale (through La Combe du Lion Vert, then Arolla)",
       "dates": "07/2022 - 08/2024",
       "location": "Paris, France",
       "context": "I joined a team in charge of developing and maintaining a tool used to compute an accounting reserve on profits from complex financial products. I was initially supposed to take over the Tech Lead position, but the former one actually stayed on the team.\nMy role was that of a technical expert, in charge of infrastructure upgrades and technical migrations, and of a reference in terms of architecture and best practices ",
@@ -86,7 +86,7 @@
     },
     {
       "position": "Java/Angular developer",
-      "company": "La Combe du Lion Vert (for ANTAI (french National agency for automated offence processing) via Polyconseil)",
+      "company": "ANTAI (french National agency for automated offence processing) (through La Combe du Lion Vert and Polyconseil)",
       "dates": "06/2021 - 07/2022",
       "location": "Paris, France",
       "context": "Maintenance of an offence processing application.",
@@ -115,7 +115,7 @@
     },
     {
       "position": "Java/backend lead developer",
-      "company": "Infotel (for the European Patent Office)",
+      "company": "European Patent Office (through Infotel)",
       "dates": "02/2020 - 06/2021",
       "location": "Paris, France",
       "context": "Migration from legacy systems (Mainframe applications, batch processes running on a custom ETL platform, Java web applications running in JBoss) to microservices built on the Spring ecosystem and deployed in Kubernetes.",
@@ -142,9 +142,9 @@
     },
     {
       "position": "Java & Javascript lead developer",
-      "company" : "Infotel (for the European Patent Office)",
+      "company": "European Patent Office (through Infotel)",
       "dates": "02/2019 - 02/2020",
-      "location" : "Paris, France",
+      "location": "Paris, France",
       "context": "Maintenance of Java applications.",
       "tasks": [
         "Bug fixing",
@@ -155,7 +155,7 @@
         "Code reviews and assistance to junior developers"
       ],
       "note": "Technical lead for internships and Infotel internal projects, on various stacks: Spring Boot, MEAN, Kubernetes...",
-      "env" : {
+      "env": {
         "Java": "language",
         "Javascript": "language",
         "Spring": "framework",
@@ -177,16 +177,16 @@
     },
     {
       "position": "Back-end developer",
-      "company" : "Infotel (for the European Patent Office)",
+      "company": "European Patent Office (through Infotel)",
       "dates": "05/2018 - 12/2018",
-      "location" : "Paris, France",
+      "location": "Paris, France",
       "context": "Development of new micro-services to support the patent granting process.",
       "tasks": [
         "Design and development",
         "Bug fixing",
         "Documentation"
       ],
-      "env" : {
+      "env": {
         "Java": "language",
         "Spring": "framework",
         "JMS": "framework",
@@ -201,9 +201,9 @@
     },
     {
       "position": "Solution Architect",
-      "company" : "Infotel (for the European Patent Office)",
+      "company": "European Patent Office (through Infotel)",
       "dates": "08/2017 - 07/2018",
-      "location" : "The Hague, Netherlands",
+      "location": "The Hague, Netherlands",
       "context": "Design, development and documentation of a new Web application. This application is a portal giving access to several sources of Non Patent Literature. The main feature is a notification system for newly published documents matching a search registered by the user.",
       "tasks": [
         "Understanding user needs",
@@ -211,17 +211,17 @@
         "Taking part in the development",
         "Documenting"
       ],
-      "env" : {
-        "Java": "language", 
-        "Typescript": "language", 
-        "HTML": "language", 
-        "CSS": "language", 
-        "SQL": "language", 
-        "SQL Server": "tool", 
-        "Spring Boot": "framework", 
-        "Angular 4": "framework", 
-        "Webpack": "tool", 
-        "Maven": "tool", 
+      "env": {
+        "Java": "language",
+        "Typescript": "language",
+        "HTML": "language",
+        "CSS": "language",
+        "SQL": "language",
+        "SQL Server": "tool",
+        "Spring Boot": "framework",
+        "Angular 4": "framework",
+        "Webpack": "tool",
+        "Maven": "tool",
         "Jenkins": "tool",
         "Git": "tool",
         "SonarQube": "tool"
@@ -229,27 +229,27 @@
     },
     {
       "position": "Lead developer",
-      "company" : "Infotel (for the European Patent Office)",
+      "company": "European Patent Office (through Infotel)",
       "dates": "09/2016 - 08/2017",
-      "location" : "The Hague, Netherlands",
+      "location": "The Hague, Netherlands",
       "context": "Development of a new Web application. The aim of the project is to replace a Lotus Notes application and to automate some operations for orders handling and bibliographic data enrichment.",
       "tasks": [
         "Taking part to the design",
         "Implementation"
       ],
-      "env" : {
-        "Java": "language", 
-        "Typescript": "language", 
-        "HTML": "language", 
-        "CSS": "language", 
+      "env": {
+        "Java": "language",
+        "Typescript": "language",
+        "HTML": "language",
+        "CSS": "language",
         "SQL": "language",
-        "SQL Server": "tool", 
-        "Spring": "framework", 
-        "Hibernate": "framework", 
+        "SQL Server": "tool",
+        "Spring": "framework",
+        "Hibernate": "framework",
         "Angular 2": "framework",
-        "Webpack": "tool", 
-        "Maven": "tool", 
-        "Jenkins": "tool", 
+        "Webpack": "tool",
+        "Maven": "tool",
+        "Jenkins": "tool",
         "JBoss": "tool",
         "SVN": "tool",
         "SonarQube": "tool"
@@ -257,49 +257,49 @@
     },
     {
       "position": "Java & Javascript developer",
-      "company" : "Infotel (for the European Patent Office)",
+      "company": "European Patent Office (through Infotel)",
       "dates": "09/2015 - 09/2016",
-      "location" : "Paris, France",
+      "location": "Paris, France",
       "context": "Third-Party Application Maintenance of CiteNPL (Firefox extension and web applications).",
       "tasks": [
         "Fixing bugs following feedback from the users",
         "Design and implementation of new features required by the users",
         "Support to testing and deployment teams"
       ],
-      "env" : {
-        "Java": "language", 
+      "env": {
+        "Java": "language",
         "Javascript": "language",
         "DB2": "tool",
-        "Spring": "framework", 
-        "Hibernate": "framework", 
-        "Jquery": "framework",
-        "Maven": "tool", 
-        "Jenkins": "tool", 
-        "JBoss": "tool",
-        "SVN": "tool",
-        "SonarQube": "tool"
-      }
-    },
-    {
-      "position": "Java & Javascript developer",
-      "company" : "Adaming (for Infotel and the European Patent Office)",
-      "dates": "02/2015 - 08/2015",
-      "location" : "Paris, France",
-      "context": "Third-Party Application Maintenance of CiteNPL (Firefox extension and web applications).",
-      "tasks": [
-        "Fixing bugs following feedback from the users",
-        "Design and implementation of new features required by the users",
-        "Support to testing and deployment teams"
-      ],
-      "env" : {
-        "Java": "language", 
-        "Javascript": "language",
-        "DB2": "tool",
-        "Spring": "framework", 
+        "Spring": "framework",
         "Hibernate": "framework",
         "Jquery": "framework",
-        "Maven": "tool", 
-        "Jenkins": "tool", 
+        "Maven": "tool",
+        "Jenkins": "tool",
+        "JBoss": "tool",
+        "SVN": "tool",
+        "SonarQube": "tool"
+      }
+    },
+    {
+      "position": "Java & Javascript developer",
+      "company": "European Patent Office (through Adaming and Infotel)",
+      "dates": "02/2015 - 08/2015",
+      "location": "Paris, France",
+      "context": "Third-Party Application Maintenance of CiteNPL (Firefox extension and web applications).",
+      "tasks": [
+        "Fixing bugs following feedback from the users",
+        "Design and implementation of new features required by the users",
+        "Support to testing and deployment teams"
+      ],
+      "env": {
+        "Java": "language",
+        "Javascript": "language",
+        "DB2": "tool",
+        "Spring": "framework",
+        "Hibernate": "framework",
+        "Jquery": "framework",
+        "Maven": "tool",
+        "Jenkins": "tool",
         "JBoss": "tool",
         "SVN": "tool",
         "SonarQube": "tool"

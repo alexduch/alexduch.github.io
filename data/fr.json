@@ -31,7 +31,7 @@
   "xp": [
     {
       "position": "Software Engineer",
-      "company": "Arolla (pour l'Agence France Presse)",
+      "company": "Agence France Presse (via Arolla)",
       "dates": "12/2024 - Aujourd'hui",
       "location": "Paris, France",
       "context": "Dans l'équipe en charge de l'API utilisée par les clients de l'AFP pour accéder à ses contenus ainsi qu'à ceux de partenaires. La plateforme est composées de microservices écrit principalement en Java/Spring Boot ou NodeJS. L'équipe est également en charge de l'opération en production de la plateforme.",
@@ -49,14 +49,14 @@
         "AWS": "tool",
         "Git": "tool",
         "GitHub": "tool",
-        "MongoDB":  "tool",
+        "MongoDB": "tool",
         "ansible": "tool",
         "elasticsearch": "tool"
       }
     },
     {
       "position": "Lead Tech",
-      "company": "La Combe du Lion Vert, puis Arolla (pour la Société Générale)",
+      "company": "Société Générale (via La Combe du Lion Vert, puis Arolla)",
       "dates": "07/2022 - 08/2024",
       "location": "Paris, France",
       "context": "L'équipe que j'ai rejoint est en charge d’un outil de calcul de réserve comptable sur les bénéfices estimés de produits financiers complexes. L'objectif était de remplacer le Lead Tech précédent qui est finalement resté dans l'équipe.\nEn pratique, mon rôle a été celui d’un expert technique en charge de mises à jour de l’infrastructure et de migrations techniques, et de référent en termes d’architecture, d’infrastructure et de bonnes pratiques.",
@@ -86,7 +86,7 @@
     },
     {
       "position": "Développeur Java/Angular",
-      "company": "La Combe du Lion Vert (pour l'ANTAI via Polyconseil)",
+      "company": "ANTAI (via La Combe du Lion Vert et Polyconseil)",
       "dates": "06/2021 - 07/2022",
       "location": "Paris, France",
       "context": "Maintenance d'une application de traitement des infractions",
@@ -115,7 +115,7 @@
     },
     {
       "position": "Lead developer Java/Backend",
-      "company": "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Office Européen des Brevets (via Infotel)",
       "dates": "02/2020 - 06/2021",
       "location": "Paris, France",
       "context": "Migration d'application legacy (batchs sur une plateforme ETL interne, applications Mainframe, applications JBoss) vers des microservices Spring déployé dans Kubernetes.",
@@ -142,7 +142,7 @@
     },
     {
       "position": "Lead developer Java/Javascript",
-      "company": "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Office Européen des Brevets (via Infotel)",
       "dates": "02/2019 - 02/2020",
       "location": "Paris, France",
       "context": "Maintenance d'applications Java.",
@@ -177,7 +177,7 @@
     },
     {
       "position": "Développeur back-end",
-      "company": "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Office Européen des Brevets (via Infotel)",
       "dates": "05/2018 - 12/2018",
       "location": "Paris, France",
       "context": "Développement de micro-services pour le traitement des demandes de brevet.",
@@ -201,7 +201,7 @@
     },
     {
       "position": "Solution Architect",
-      "company": "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Office Européen des Brevets (via Infotel)",
       "dates": "08/2017 - 07/2018",
       "location": "La Haye, Pays-Bas",
       "context": "Conception, développement et documentation d’une nouvelle application web. L’application est un portail web permettant l’accès à diverses sources de document, la principale fonctionnalité étant un système de notifications périodiques des nouvelles publications scientifiques correspondant à une recherche prédéfinie par l’utilisateur.",
@@ -229,7 +229,7 @@
     },
     {
       "position": "Lead developer",
-      "company": "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Office Européen des Brevets (via Infotel)",
       "dates": "09/2016 - 08/2017",
       "location": "La Haye, Pays-Bas",
       "context": "Développement d’une nouvelle application web. Le but du projet est de remplacer une application Lotus Notes et d’automatiser certaines opérations de gestion de commandes et d’enrichissement de données bibliographiques.",
@@ -257,7 +257,7 @@
     },
     {
       "position": "Java & Javascript developer",
-      "company": "Infotel (pour l'Office Européen des Brevets)",
+      "company": "Office Européen des Brevets (via Infotel)",
       "dates": "09/2015 - 09/2016",
       "location": "Paris, France",
       "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
@@ -283,7 +283,7 @@
     },
     {
       "position": "Java & Javascript developer",
-      "company": "Adaming (pour Infotel et l'Office Européen des Brevets)",
+      "company": "Office Européen des Brevets (via Adaming et Infotel)",
       "dates": "02/2015 - 08/2015",
       "location": "Paris, France",
       "context": "Maintenance d’application Java et Javascript (extension Firefox et applications web).",
